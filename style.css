@@ -164,6 +164,18 @@ main > p, section > p {
     background-color: var(--card-hover-bg) !important;
 }
 
+/* Henüz aktif olmayan / hedef sayfası olmayan kartlar için:
+   tıklanabilir gibi görünmesini (imleç, hover animasyonu) engeller. */
+.card.not-clickable {
+    cursor: default !important;
+}
+
+.card.not-clickable:hover {
+    transform: none !important;
+    border-color: var(--card-border) !important;
+    background-color: var(--card-bg) !important;
+}
+
 .card-icon {
     font-size: 2.2rem !important;
     margin-bottom: 10px !important;

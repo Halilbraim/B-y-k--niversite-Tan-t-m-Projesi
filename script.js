@@ -31,6 +31,16 @@ window.addEventListener('load', checkInitialReveal);
 setTimeout(checkInitialReveal, 100);
 
 // ==========================================
+// YARDIMCI FONKSİYON: TÜRKÇE UYUMLU KÜÇÜK HARFE ÇEVİRME
+// (JS'in standart toLowerCase()'i büyük "İ" harfini yanlış çevirir,
+// bu yüzden arama kutusunda "İnşaat", "İşletme" gibi kelimeler
+// bulunamayabiliyordu. .toLocaleLowerCase('tr-TR') ile düzeltildi.)
+// ==========================================
+function trLower(str) {
+    return str.toLocaleLowerCase('tr-TR');
+}
+
+// ==========================================
 // 2. İKİ KATINA ÇIKARILMIŞ DEV MAKALE METİNLERİ (1000+ SATIR)
 // ==========================================
 const modalData = {
@@ -448,10 +458,10 @@ const departmentsData = [
     { id: "dept-iktisat", title: "İktisat", faculty: "İktisadi ve İdari Bilimler Fakültesi", category: "Iktisat", duration: "4 Yıl", scoreType: "EA" },
     { id: "dept-kamuyonetimi", title: "Siyaset Bilimi ve Kamu Yönetimi", faculty: "İktisadi ve İdari Bilimler Fakültesi", category: "Iktisat", duration: "4 Yıl", scoreType: "EA" },
     { id: "dept-ilahiyat", title: "İlahiyat", faculty: "İlahiyat Fakültesi", category: "Iktisat", duration: "4 Yıl", scoreType: "SÖZ" },
-    { id: "dept-pdr", title: "Rehberlik ve Psikolojik Danışmanlık", faculty: "Eğitim Fakültesi", category: "FenEdebiyat", duration: "4 Yıl", scoreType: "EA" },
-    { id: "dept-okuloncesi", title: "Okul Öncesi Öğretmenliği", faculty: "Eğitim Fakültesi", category: "FenEdebiyat", duration: "4 Yıl", scoreType: "SÖZ" },
-    { id: "dept-ingilizceogrt", title: "İngilizce Öğretmenliği", faculty: "Eğitim Fakültesi", category: "FenEdebiyat", duration: "4 Yıl", scoreType: "DİL" },
-    { id: "dept-ilkogretimmat", title: "İlköğretim Matematik Öğretmenliği", faculty: "Eğitim Fakültesi", category: "FenEdebiyat", duration: "4 Yıl", scoreType: "SAY" }
+    { id: "dept-pdr", title: "Rehberlik ve Psikolojik Danışmanlık", faculty: "Eğitim Fakültesi", category: "Egitim", duration: "4 Yıl", scoreType: "EA" },
+    { id: "dept-okuloncesi", title: "Okul Öncesi Öğretmenliği", faculty: "Eğitim Fakültesi", category: "Egitim", duration: "4 Yıl", scoreType: "SÖZ" },
+    { id: "dept-ingilizceogrt", title: "İngilizce Öğretmenliği", faculty: "Eğitim Fakültesi", category: "Egitim", duration: "4 Yıl", scoreType: "DİL" },
+    { id: "dept-ilkogretimmat", title: "İlköğretim Matematik Öğretmenliği", faculty: "Eğitim Fakültesi", category: "Egitim", duration: "4 Yıl", scoreType: "SAY" }
 ];
 
 const departmentsGrid = document.getElementById('departmentsGrid');
@@ -463,12 +473,14 @@ let currentSearchTerm = '';
 
 function renderDepartments() {
     if (!departmentsGrid) return;
-    
+
+    const searchTermLower = trLower(currentSearchTerm);
+
     const filtered = departmentsData.filter(dept => {
         const matchesCategory = currentCategory === 'all' || dept.category === currentCategory;
-        const matchesSearch = dept.title.toLowerCase().includes(currentSearchTerm.toLowerCase()) ||
-                              dept.faculty.toLowerCase().includes(currentSearchTerm.toLowerCase()) ||
-                              dept.scoreType.toLowerCase().includes(currentSearchTerm.toLowerCase());
+        const matchesSearch = trLower(dept.title).includes(searchTermLower) ||
+                              trLower(dept.faculty).includes(searchTermLower) ||
+                              trLower(dept.scoreType).includes(searchTermLower);
         return matchesCategory && matchesSearch;
     });
 
@@ -556,3 +568,16 @@ document.addEventListener('keydown', (e) => {
 });
 
 renderDepartments();
+
+// ==========================================
+// 5. URL HASH İLE DOĞRUDAN MODAL AÇMA
+// (Örn: index.html'deki "Mezunlar & Kariyer" kartı artık
+// kampus.html#saglik-kariyer adresine yönlendiriyor; sayfa
+// açılır açılmaz o modal otomatik gösterilir.)
+// ==========================================
+window.addEventListener('DOMContentLoaded', () => {
+    const hashKey = window.location.hash.replace('#', '');
+    if (hashKey && modalData[hashKey]) {
+        openModal(hashKey);
+    }
+});
