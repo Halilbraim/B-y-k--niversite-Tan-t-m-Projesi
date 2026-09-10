@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yurtlar & Barınma Rehberi - Fırat Üniversitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav-container reveal">
+        <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </div>
+
+    <section class="hero reveal" style="padding-top: 10px;">
+        <h1>Yurtlar & Barınma Rehberi</h1>
+        <p>Elazığ'daki 7 KYK devlet yurdu, özel apartlar, kiralık evler ve başvuru süreçleri hakkında detaylı bilgi için kartlara tıklayın.</p>
+    </section>
+
+    <main class="container reveal">
+        <div class="yurt-grid">
+
+            <div class="card clickable-card" data-modal="yurt-kyk-ahmet-kabakli">
+                <div class="card-icon">🏢</div>
+                <h3>Ahmet Kabaklı Erkek KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-harput">
+                <div class="card-icon">🏢</div>
+                <h3>Harput Erkek KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-fethi-sekin">
+                <div class="card-icon">🏢</div>
+                <h3>Fethi Sekin Kız KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-omer-bilginoglu">
+                <div class="card-icon">🏢</div>
+                <h3>Ömer Bilginoğlu Kız KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-sare-ana">
+                <div class="card-icon">🏢</div>
+                <h3>Sare Ana Kız KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-elazig-kiz">
+                <div class="card-icon">🏢</div>
+                <h3>Elazığ Kız KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-kyk-firat">
+                <div class="card-icon">🏢</div>
+                <h3>Fırat KYK Yurdu</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-ozel-yurtlar">
+                <div class="card-icon">🏠</div>
+                <h3>Üniversite Mahallesi Özel Yurtlar</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-ozel-apartlar">
+                <div class="card-icon">🛋️</div>
+                <h3>1+0 & 1+1 Öğrenci Apartları</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-ev-kiralama">
+                <div class="card-icon">🔑</div>
+                <h3>Kiralık Öğrenci Evleri & Semtler</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-basvuru-sureci">
+                <div class="card-icon">📝</div>
+                ### KYK Başvuru & e-Devlet Adımları
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+            <div class="card clickable-card" data-modal="yurt-imkanlar-beslenme">
+                <div class="card-icon">🍲</div>
+                <h3>KYK Yemekhane & Beslenme Desteği</h3>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modalClose" class="modal-close">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fırat Üniversitesi Öğrenci Tanıtım Portalıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

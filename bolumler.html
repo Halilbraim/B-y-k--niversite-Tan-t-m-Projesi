@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisans & Önlisans Bölümleri - Fırat Üniversitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav-container reveal">
+        <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </div>
+
+    <section class="hero reveal" style="padding-top: 10px;">
+        <h1>Lisans & Önlisans Bölümleri</h1>
+        <p>Fırat Üniversitesi bünyesindeki tüm akademik programları inceleyebilir, puan türü veya fakülte bazlı filtreleyebilirsiniz.</p>
+    </section>
+
+    <main class="container reveal">
+
+        <!-- ARAMA ALANI (Düzeltildi) -->
+        <div class="dept-search-box">
+            <input type="text" id="deptSearchInput" class="dept-search-input" placeholder="Bölüm, fakülte veya puan türü ara (Örn: Yazılım, Tıp, SAY)...">
+        </div>
+
+        <!-- FİLTRE BUTONLARI -->
+        <div class="filter-chips" id="facultyFilterChips">
+            <button class="filter-chip active" data-faculty="all">Tümü</button>
+            <button class="filter-chip" data-faculty="Muhendislik">Mühendislik & Teknoloji</button>
+            <button class="filter-chip" data-faculty="Saglik">Sağlık Bilimleri</button>
+            <button class="filter-chip" data-faculty="FenEdebiyat">Fen, Edebiyat & İletişim</button>
+            <button class="filter-chip" data-faculty="Iktisat">İİBF & İlahiyat</button>
+        </div>
+
+        <div id="departmentsGrid"></div>
+
+    </main>
+
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modalClose" class="modal-close">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fırat Üniversitesi Öğrenci Tanıtım Portalıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
