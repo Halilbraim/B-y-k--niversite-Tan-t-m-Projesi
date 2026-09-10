@@ -1340,6 +1340,313 @@ const modalData = {
 
 
     // ==========================================
+    // KAYIT İŞLEMLERİ VE AKADEMİK SÜREÇLER
+    // ==========================================
+
+    "kayit-obs": {
+
+        title: "💻 OBS ve Ders Kayıt Süreci",
+
+        text: `
+            <p>
+                Öğrenci Bilgi Sistemi (OBS), öğrencilerin her dönem
+                başında ders seçimi yapabildiği, not ve devamsızlık
+                bilgilerini takip edebildiği ve akademik işlemlerini
+                yürütebildiği temel dijital platformdur. Dönem başında
+                belirlenen ders kayıt tarihleri içerisinde sisteme
+                girerek alınacak derslerin seçilmesi gerekir.
+            </p>
+
+            <p>
+                Ders kayıt haftasında sistem yoğunluğu yaşanabileceği
+                için öğrencilerin kayıt tarihlerini önceden not etmesi
+                ve gerekli ön koşul derslerini kontrol etmesi
+                önerilir. Kayıt sırasında yaşanan teknik sorunlarda
+                fakülte öğrenci işleri biriminden destek alınabilir.
+            </p>
+        `
+    },
+
+
+    "kayit-takvim": {
+
+        title: "📅 Akademik Takvim ve Önemli Tarihler",
+
+        text: `
+            <p>
+                Akademik takvim; ders kayıt dönemleri, ekle-sil
+                haftası, ara sınav ve final tarihleri, bütünleme
+                sınavları ve tatil dönemleri gibi öğrencinin dönem
+                boyunca takip etmesi gereken tüm önemli tarihleri
+                içerir. Bu takvim her akademik yıl başında üniversite
+                tarafından güncellenerek ilan edilir.
+            </p>
+
+            <p>
+                Öğrencilerin dönem başında akademik takvimi inceleyerek
+                sınav ve kayıt tarihlerini kendi ajandalarına not
+                etmesi, son dakika karışıklıklarının önüne geçmelerine
+                yardımcı olabilir. Güncel takvim bilgileri üniversitenin
+                resmi web sitesinden takip edilmelidir.
+            </p>
+        `
+    },
+
+
+    "kayit-danisman": {
+
+        title: "🧑‍🏫 Danışman Öğretim Üyesi Sistemi",
+
+        text: `
+            <p>
+                Her öğrenciye kayıt olduğu bölümden bir danışman
+                öğretim üyesi atanır. Danışmanlar; ders seçimi,
+                akademik planlama, staj süreçleri ve üniversite
+                hayatına dair karşılaşılan sorularda öğrencilere
+                rehberlik eder.
+            </p>
+
+            <p>
+                Özellikle ders kayıt döneminde danışman onayı
+                gerekebileceğinden öğrencilerin danışman öğretim
+                üyeleriyle düzenli iletişim halinde olması, hem
+                akademik planlamayı kolaylaştırır hem de olası
+                sorunların erken fark edilmesine yardımcı olur.
+            </p>
+        `
+    },
+
+
+    "kayit-mezuniyet": {
+
+        title: "🎓 Diploma ve Mezuniyet İşlemleri",
+
+        text: `
+            <p>
+                Mezuniyet aşamasına gelen öğrencilerin ders yükümlülüklerini
+                tamamlamış olması, staj ve varsa bitirme projesi gibi
+                gereklilikleri yerine getirmiş olması gerekir. Mezuniyet
+                işlemleri genellikle öğrenci işleri birimi üzerinden
+                takip edilir ve ilişik kesme süreciyle tamamlanır.
+            </p>
+
+            <p>
+                Diploma teslim süreci, geçici mezuniyet belgesi alma
+                ve transkript işlemleri üniversiteden üniversiteye
+                farklılık gösterebilir. Bu nedenle mezuniyet döneminde
+                öğrencilerin güncel prosedürleri öğrenci işleri
+                biriminden takip etmesi önemlidir.
+            </p>
+        `
+    },
+
+
+    // ==========================================
+    // ULUSLARARASI ÖĞRENCİLER
+    // ==========================================
+
+    "uluslararasi-basvuru": {
+
+        title: "🌐 Yabancı Uyruklu Öğrenci Başvuru ve Kabul Süreci",
+
+        text: `
+            <p>
+                Yabancı uyruklu öğrenci adayları, üniversitenin ilgili
+                başvuru dönemlerinde çevrim içi başvuru sistemleri
+                üzerinden programlara başvurabilir. Başvuru şartları,
+                istenen belgeler ve değerlendirme kriterleri bölüme
+                ve öğrencinin geldiği eğitim sistemine göre
+                değişebilir.
+            </p>
+
+            <p>
+                Kabul edilen öğrencilerin kayıt, denklik ve oturum
+                izni gibi işlemler için üniversitenin uluslararası
+                öğrenci birimiyle iletişime geçmesi gerekir. Güncel
+                başvuru takvimi ve belge listesi üniversitenin resmi
+                duyurularından takip edilmelidir.
+            </p>
+        `
+    },
+
+
+    "uluslararasi-ofis": {
+
+        title: "🏢 Uluslararası Öğrenci Ofisi ve Destek Hizmetleri",
+
+        text: `
+            <p>
+                Uluslararası öğrenci birimleri, yabancı uyruklu
+                öğrencilerin kayıt, ikamet izni, sağlık sigortası ve
+                üniversiteye uyum süreçlerinde destek sağlayan
+                birimlerdir. Öğrencilerin Türkiye'deki üniversite
+                yaşamına adapte olmasına yardımcı olacak rehberlik
+                hizmetleri sunabilir.
+            </p>
+
+            <p>
+                Kültürel uyum, sosyal etkinlikler ve akademik
+                danışmanlık gibi konularda da destek alınabilecek bu
+                birimler, öğrencilerin karşılaştığı sorunlarda ilk
+                başvurulacak noktalardan biridir. Hizmetlerin kapsamı
+                ve iletişim bilgileri üniversitenin güncel
+                duyurularından öğrenilmelidir.
+            </p>
+        `
+    },
+
+
+    "uluslararasi-dil": {
+
+        title: "🗣️ Türkçe Hazırlık ve Dil Desteği",
+
+        text: `
+            <p>
+                Türkçe bilgisi yeterli düzeyde olmayan yabancı uyruklu
+                öğrenciler için Türkçe hazırlık programları
+                sunulabilir. Bu programlar öğrencilerin akademik
+                derslere başlamadan önce dil yeterliliği kazanmasını
+                amaçlar.
+            </p>
+
+            <p>
+                Dil eğitimi süresi ve muafiyet şartları öğrencinin
+                mevcut dil seviyesine göre değişebilir. Öğrencilerin
+                Türkçe yeterlilik sınavı ve hazırlık programı ile
+                ilgili güncel bilgileri ilgili dil eğitimi biriminden
+                takip etmesi gerekir.
+            </p>
+        `
+    },
+
+
+    "uluslararasi-degisim": {
+
+        title: "🔄 Gelen Değişim Öğrencileri (Incoming Erasmus)",
+
+        text: `
+            <p>
+                Erasmus+ ve benzeri değişim programları kapsamında
+                yurt dışındaki anlaşmalı üniversitelerden gelen
+                öğrenciler, bir veya iki dönem boyunca üniversitede
+                eğitim görebilir. Bu öğrenciler için ders seçimi,
+                barınma ve oryantasyon süreçleri ayrıca planlanır.
+            </p>
+
+            <p>
+                Gelen değişim öğrencileriyle etkileşime geçmek,
+                yerel öğrenciler için de farklı kültürleri tanıma ve
+                yabancı dil pratiği yapma açısından değerli bir
+                fırsat olabilir. Öğrenci toplulukları zaman zaman bu
+                öğrencilere yönelik ortak etkinlikler düzenleyebilir.
+            </p>
+        `
+    },
+
+
+    // ==========================================
+    // KAMPÜS GÜVENLİĞİ VE ACİL DURUM
+    // ==========================================
+
+    "guvenlik-birim": {
+
+        title: "🛡️ Kampüs Güvenlik Birimi",
+
+        text: `
+            <p>
+                Kampüs güvenlik birimleri, öğrencilerin ve personelin
+                güvenli bir ortamda eğitim ve çalışma faaliyetlerini
+                sürdürebilmesi için giriş-çıkış kontrolü, devriye
+                hizmetleri ve genel güvenlik düzenini sağlamakla
+                görevlidir.
+            </p>
+
+            <p>
+                Kampüs içerisinde herhangi bir güvenlik sorunuyla
+                karşılaşan öğrencilerin en yakın güvenlik noktasına
+                veya ilgili birime bilgi vermesi önemlidir. Güvenlik
+                birimlerinin iletişim numaraları genellikle kampüs
+                içindeki bilgilendirme panolarında ve üniversite
+                web sitesinde paylaşılır.
+            </p>
+        `
+    },
+
+
+    "guvenlik-acil": {
+
+        title: "🚑 Acil Durum ve İlk Yardım Prosedürleri",
+
+        text: `
+            <p>
+                Kampüs içerisinde sağlık sorunu, kaza veya doğal afet
+                gibi acil durumlarla karşılaşılması ihtimaline karşı
+                üniversitelerde genellikle acil durum prosedürleri ve
+                ilk yardım noktaları bulunur. Öğrencilerin bu
+                prosedürleri ve en yakın sağlık biriminin konumunu
+                dönem başında öğrenmesi faydalı olur.
+            </p>
+
+            <p>
+                Acil bir durumda güvenlik birimi veya kampüs içindeki
+                sağlık biriminin (Mediko-Sosyal) aranması, sorunun
+                hızlı şekilde çözülmesine yardımcı olur. Deprem,
+                yangın gibi durumlarda izlenmesi gereken tahliye
+                planları bina girişlerinde asılı bilgilendirmelerden
+                takip edilebilir.
+            </p>
+        `
+    },
+
+
+    "guvenlik-aydinlatma": {
+
+        title: "💡 Aydınlatma ve Güvenli Ulaşım Güzergâhları",
+
+        text: `
+            <p>
+                Özellikle akşam saatlerinde kampüs içerisinde hareket
+                eden öğrenciler için aydınlatılmış ve işlek
+                güzergâhları tercih etmek güvenlik açısından faydalı
+                olabilir. Kampüs içi ana yollar ve yurt-fakülte
+                arası güzergâhlar genellikle daha yoğun kullanılan
+                ve aydınlatılan alanlardır.
+            </p>
+
+            <p>
+                Akşam ders veya etkinliklerden sonra kampüsten
+                ayrılacak öğrencilerin mümkünse toplu halde hareket
+                etmesi ve kampüs içi ring veya toplu taşıma
+                seçeneklerini değerlendirmesi önerilir.
+            </p>
+        `
+    },
+
+
+    "guvenlik-kayipesya": {
+
+        title: "🔍 Kayıp Eşya ve Bildirim Süreci",
+
+        text: `
+            <p>
+                Kampüs içerisinde eşyasını kaybeden veya bir eşya
+                bulan öğrenciler genellikle güvenlik birimine veya
+                ilgili idari birime bildirimde bulunabilir. Kayıp
+                eşya bildirimlerinin mümkün olduğunca hızlı yapılması,
+                eşyanın sahibine ulaştırılma ihtimalini artırır.
+            </p>
+
+            <p>
+                Önemli belgelerin (öğrenci kimliği, kartlar vb.)
+                kaybolması durumunda ilgili idari birimlerden yeniden
+                çıkarılması için gereken prosedürler hakkında bilgi
+                alınabilir.
+            </p>
+        `
+    },
+
+
+    // ==========================================
     // 9. BÖLÜM - ÖĞRENCİ YAŞAMI
     // ==========================================
 
@@ -1493,9 +1800,24 @@ const modalData = {
             </p>
 
             <p>
-                Yazılım geliştirme, algoritmalar, veri yapıları,
-                yazılım tasarımı ve bilgisayar sistemleri gibi alanlara
-                odaklanan bir mühendislik eğitimidir.
+                <strong>Program İçeriği:</strong>
+                Yazılım Mühendisliği; algoritmalar, veri yapıları, nesne
+                yönelimli programlama, veritabanı sistemleri, yazılım
+                mimarisi ve yazılım geliştirme süreç yönetimi gibi
+                konuları kapsayan bir mühendislik eğitimidir. Öğrenciler
+                eğitimleri boyunca farklı programlama dilleri, geliştirme
+                araçları ve proje yönetim yöntemleriyle tanışarak
+                uçtan uca yazılım üretme becerisi kazanmayı hedefler.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar; yazılım geliştirici, sistem analisti, mobil
+                ve web uygulama geliştirici, test ve kalite mühendisi
+                gibi birçok pozisyonda kariyer yapabilir. Teknoloji
+                şirketleri, yazılım firmaları, kamu kurumları ve
+                serbest çalışma (freelance) proje geliştirme süreçleri
+                de mezunların değerlendirebileceği alanlar arasındadır.
             </p>
         `
     },
@@ -1510,10 +1832,24 @@ const modalData = {
             </p>
 
             <p>
-                Bilgisayar mühendisliği; programlama, algoritmalar,
-                veri yapıları, bilgisayar donanımı, yapay zeka,
-                işletim sistemleri ve yazılım geliştirme gibi birçok
-                alanı kapsayan geniş bir mühendislik bölümüdür.
+                <strong>Program İçeriği:</strong>
+                Bilgisayar Mühendisliği; programlama, algoritmalar,
+                veri yapıları, bilgisayar donanımı, işletim sistemleri,
+                bilgisayar ağları, yapay zeka ve yazılım geliştirme gibi
+                geniş bir yelpazeyi kapsayan bir mühendislik bölümüdür.
+                Öğrenciler hem donanım hem de yazılım tarafında temel
+                bilgiler edinerek bilgisayar sistemlerinin nasıl
+                tasarlandığını ve çalıştığını kavrar.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar yazılım geliştirme, sistem mühendisliği,
+                ağ ve güvenlik uzmanlığı, veri bilimi, gömülü sistemler
+                ve yapay zeka gibi alanlarda çalışabilir. Teknoloji
+                şirketleri, bankacılık, savunma sanayii ve araştırma
+                kurumları bilgisayar mühendisliği mezunlarının yoğun
+                olarak tercih edildiği sektörler arasındadır.
             </p>
         `
     },
@@ -1528,8 +1864,24 @@ const modalData = {
             </p>
 
             <p>
-                Makine öğrenmesi, veri analizi, yapay zeka algoritmaları
-                ve veri mühendisliği gibi konular üzerine yoğunlaşır.
+                <strong>Program İçeriği:</strong>
+                Bu bölümde öğrenciler makine öğrenmesi, derin öğrenme,
+                büyük veri analizi, istatistiksel modelleme ve veri
+                mühendisliği gibi konularda eğitim alır. Programlama,
+                matematik ve istatistik bilgisi ile veri işleme
+                becerileri bir araya getirilerek öğrencilerin karmaşık
+                veri kümelerinden anlamlı sonuçlar çıkarabilmesi
+                hedeflenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar veri bilimci, makine öğrenmesi mühendisi,
+                yapay zeka geliştirici ve veri mühendisi gibi
+                pozisyonlarda çalışabilir. Teknoloji şirketlerinin
+                yanında finans, sağlık, perakende ve üretim gibi
+                sektörlerde veri odaklı karar destek sistemleri
+                geliştirilmesinde de görev alabilirler.
             </p>
         `
     },
@@ -1544,9 +1896,23 @@ const modalData = {
             </p>
 
             <p>
-                Elektrik sistemleri, elektronik, haberleşme, otomasyon,
-                kontrol ve enerji alanlarında temel mühendislik eğitimi
-                sunar.
+                <strong>Program İçeriği:</strong>
+                Elektrik-Elektronik Mühendisliği; elektrik devreleri,
+                elektronik sistemler, haberleşme, kontrol sistemleri,
+                otomasyon ve enerji üretim-dağıtım teknolojileri gibi
+                geniş bir alanı kapsar. Öğrenciler devre tasarımından
+                sinyal işlemeye, güç sistemlerinden gömülü sistemlere
+                kadar farklı uzmanlık alanlarında temel bilgi ve
+                uygulama deneyimi kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar enerji şirketleri, elektronik üretim
+                firmaları, telekomünikasyon sektörü, otomasyon ve
+                endüstriyel kontrol sistemleri alanlarında çalışabilir.
+                Ayrıca kamu kurumlarındaki enerji ve altyapı projelerinde
+                de görev alma imkânı bulunur.
             </p>
         `
     },
@@ -1561,8 +1927,23 @@ const modalData = {
             </p>
 
             <p>
-                Mekanik sistemler, tasarım, üretim, termodinamik,
-                malzeme ve makine elemanları gibi alanlara odaklanır.
+                <strong>Program İçeriği:</strong>
+                Makine Mühendisliği; mekanik sistemlerin tasarımı,
+                üretim yöntemleri, termodinamik, akışkanlar mekaniği,
+                malzeme bilimi ve makine elemanları gibi konuları
+                kapsar. Öğrenciler bilgisayar destekli tasarım (CAD)
+                araçlarını kullanmayı, mekanik sistemleri analiz
+                etmeyi ve üretim süreçlerini planlamayı öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar otomotiv, enerji, üretim, havacılık ve
+                makine imalat sektörlerinde tasarım, üretim ve
+                Ar-Ge mühendisi olarak çalışabilir. Endüstriyel
+                tesislerdeki bakım, kalite kontrol ve proje yönetimi
+                süreçleri de mezunların değerlendirebileceği alanlar
+                arasındadır.
             </p>
         `
     },
@@ -1577,8 +1958,22 @@ const modalData = {
             </p>
 
             <p>
-                Yapı, geoteknik, ulaştırma, hidrolik ve inşaat yönetimi
-                gibi alanlarda eğitim verir.
+                <strong>Program İçeriği:</strong>
+                İnşaat Mühendisliği; yapı statiği, geoteknik mühendislik,
+                ulaştırma, hidrolik-su yapıları ve inşaat yönetimi gibi
+                alt disiplinleri kapsayan geniş kapsamlı bir mühendislik
+                eğitimidir. Öğrenciler bina, köprü, yol ve altyapı
+                projelerinin tasarım, analiz ve uygulama aşamalarını
+                öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar yapı denetim firmaları, müteahhitlik
+                şirketleri, belediyeler ve kamu kurumlarının altyapı
+                projelerinde saha ve proje mühendisi olarak çalışabilir.
+                Deprem mühendisliği, ulaştırma planlaması ve su yapıları
+                gibi uzmanlık alanlarında da kariyer geliştirilebilir.
             </p>
         `
     },
@@ -1593,9 +1988,22 @@ const modalData = {
             </p>
 
             <p>
-                Mekanik, elektronik, yazılım ve otomasyon alanlarının
-                birleşimine dayanan disiplinler arası bir mühendislik
-                bölümüdür.
+                <strong>Program İçeriği:</strong>
+                Mekatronik Mühendisliği; mekanik, elektronik, yazılım
+                ve otomasyon alanlarının birleşiminden oluşan
+                disiplinler arası bir mühendislik bölümüdür. Öğrenciler
+                robotik sistemler, sensör-aktüatör teknolojileri,
+                kontrol sistemleri ve endüstriyel otomasyon konularında
+                hem teorik hem uygulamalı eğitim alır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar üretim ve otomasyon şirketlerinde, robotik
+                sistem geliştirme firmalarında ve endüstri 4.0
+                projelerinde görev alabilir. Akıllı üretim hatları,
+                robotik sistemler ve gömülü sistem geliştirme gibi
+                alanlar mezunlar için önemli kariyer fırsatları sunar.
             </p>
         `
     },
@@ -1610,9 +2018,23 @@ const modalData = {
             </p>
 
             <p>
-                Tıbbi cihazlar, biyosensörler, sağlık teknolojileri ve
-                mühendislik uygulamalarının sağlık alanındaki kullanımına
-                odaklanır.
+                <strong>Program İçeriği:</strong>
+                Biyomedikal Mühendisliği; tıbbi cihaz tasarımı,
+                biyosensörler, görüntüleme sistemleri, biyomalzemeler
+                ve sağlık teknolojilerinin mühendislik prensipleriyle
+                geliştirilmesi üzerine odaklanır. Öğrenciler mühendislik
+                bilgisini biyoloji ve tıp alanındaki uygulamalarla
+                birleştirmeyi öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar tıbbi cihaz üreten firmalarda, hastanelerin
+                biyomedikal birimlerinde, Ar-Ge merkezlerinde ve
+                sağlık teknolojileri şirketlerinde çalışabilir.
+                Görüntüleme sistemleri, protez teknolojileri ve
+                tıbbi yazılım geliştirme gibi alanlar da mezunların
+                yönelebileceği uzmanlık konuları arasındadır.
             </p>
         `
     },
@@ -1627,8 +2049,23 @@ const modalData = {
             </p>
 
             <p>
-                Araç tasarımı, motor sistemleri, elektrikli araçlar,
-                üretim ve otomotiv teknolojileri üzerine eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Otomotiv Mühendisliği; araç tasarımı, motor ve tahrik
+                sistemleri, elektrikli ve hibrit araç teknolojileri,
+                üretim süreçleri ve araç güvenliği gibi konuları
+                kapsar. Öğrenciler geleneksel içten yanmalı motor
+                teknolojilerinin yanında elektrikli araç ve otonom
+                sürüş sistemleri gibi güncel gelişmeleri de öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar otomotiv üretim firmalarında, yan sanayi
+                şirketlerinde, Ar-Ge merkezlerinde ve elektrikli
+                araç teknolojileri geliştiren firmalarda tasarım
+                ve üretim mühendisi olarak çalışabilir. Kalite
+                kontrol ve test mühendisliği de sektördeki yaygın
+                kariyer alanlarındandır.
             </p>
         `
     },
@@ -1643,8 +2080,23 @@ const modalData = {
             </p>
 
             <p>
-                Üretim sistemleri, optimizasyon, veri analizi,
-                tedarik zinciri ve süreç yönetimi alanlarına odaklanır.
+                <strong>Program İçeriği:</strong>
+                Endüstri Mühendisliği; üretim sistemlerinin tasarımı,
+                optimizasyon, kalite yönetimi, tedarik zinciri, veri
+                analizi ve süreç iyileştirme gibi konuları kapsayan
+                çok yönlü bir mühendislik dalıdır. Öğrenciler hem
+                mühendislik hem de yönetim becerilerini bir arada
+                kullanarak sistemleri daha verimli hale getirmeyi
+                öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar üretim planlama, lojistik, kalite yönetimi,
+                süreç iyileştirme ve iş analistliği gibi pozisyonlarda
+                farklı sektörlerde çalışabilir. Danışmanlık firmaları,
+                üretim tesisleri ve tedarik zinciri yönetimi alanları
+                da mezunların yoğun tercih ettiği kariyer yollarındandır.
             </p>
         `
     },
@@ -1659,8 +2111,23 @@ const modalData = {
             </p>
 
             <p>
-                Kimyasal prosesler, üretim sistemleri, malzeme,
-                enerji ve endüstriyel proses tasarımı konularını kapsar.
+                <strong>Program İçeriği:</strong>
+                Kimya Mühendisliği; kimyasal proses tasarımı, üretim
+                sistemleri, malzeme mühendisliği, enerji dönüşüm
+                süreçleri ve endüstriyel proses optimizasyonu gibi
+                konuları kapsar. Öğrenciler laboratuvar çalışmaları
+                ve proses simülasyonları aracılığıyla kimyasal
+                üretim süreçlerini tasarlama ve iyileştirme becerisi
+                kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar kimya, petrokimya, ilaç, gıda ve enerji
+                sektörlerindeki üretim tesislerinde proses mühendisi
+                olarak çalışabilir. Ar-Ge merkezleri ve kalite
+                kontrol birimleri de mezunların değerlendirebileceği
+                önemli kariyer alanları arasındadır.
             </p>
         `
     },
@@ -1675,8 +2142,22 @@ const modalData = {
             </p>
 
             <p>
-                Su ve atık su yönetimi, çevre teknolojileri,
-                atık yönetimi ve sürdürülebilirlik konularında eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Çevre Mühendisliği; su ve atık su arıtma sistemleri,
+                katı atık yönetimi, hava kirliliği kontrolü, çevresel
+                etki değerlendirme ve sürdürülebilirlik konularını
+                kapsar. Öğrenciler çevresel sorunlara mühendislik
+                çözümleri üretmeyi ve çevre mevzuatına uygun sistemler
+                tasarlamayı öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar belediyeler, çevre danışmanlık firmaları,
+                arıtma tesisleri ve sanayi kuruluşlarının çevre
+                birimlerinde çalışabilir. Çevresel etki değerlendirme
+                raporlaması ve sürdürülebilirlik projeleri de mezunlar
+                için önemli kariyer fırsatları sunar.
             </p>
         `
     },
@@ -1691,9 +2172,23 @@ const modalData = {
             </p>
 
             <p>
-                Temel tıp bilimlerinden klinik bilimlere uzanan kapsamlı
-                bir eğitim sürecidir. Eğitim ilerledikçe uygulamalı
-                ve klinik çalışmaların ağırlığı artar.
+                <strong>Program İçeriği:</strong>
+                Tıp eğitimi; ilk yıllarda anatomi, fizyoloji, biyokimya
+                gibi temel tıp bilimleriyle başlar, ardından farmakoloji,
+                patoloji ve mikrobiyoloji gibi ara dönem derslerine
+                geçilir. Eğitimin ilerleyen yıllarında klinik stajlar
+                ağırlık kazanır ve öğrenciler farklı uzmanlık
+                alanlarında hasta başında uygulamalı eğitim alır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar pratisyen hekim olarak görev yapabilir veya
+                tıpta uzmanlık sınavı (TUS) ile farklı uzmanlık
+                dallarında ihtisas yaparak kariyerlerine devam
+                edebilir. Kamu hastaneleri, özel sağlık kuruluşları
+                ve akademik kadrolar mezunların yönelebileceği
+                başlıca alanlardır.
             </p>
         `
     },
@@ -1708,9 +2203,21 @@ const modalData = {
             </p>
 
             <p>
-                Diş hekimliği eğitimi temel bilimlerin yanında ağız,
-                diş ve çene sağlığına yönelik teorik ve uygulamalı
-                çalışmaları kapsar.
+                <strong>Program İçeriği:</strong>
+                Diş hekimliği eğitimi temel tıp bilimlerinin yanında
+                ağız, diş ve çene sağlığına yönelik teorik dersleri
+                ve klinik uygulamaları kapsar. Öğrenciler diş
+                hastalıkları, ortodonti, protez, cerrahi ve koruyucu
+                diş hekimliği gibi alanlarda uygulamalı eğitim alarak
+                hasta tedavisi konusunda deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar serbest diş hekimliği kliniği açabilir, kamu
+                veya özel sağlık kuruluşlarında çalışabilir ya da
+                diş hekimliğinde uzmanlık eğitimine devam ederek
+                ortodonti, ağız cerrahisi gibi alanlarda uzmanlaşabilir.
             </p>
         `
     },
@@ -1725,8 +2232,22 @@ const modalData = {
             </p>
 
             <p>
-                İlaç bilimi, farmasötik teknoloji, kimya, farmakoloji
-                ve klinik eczacılık gibi alanları kapsayan eğitim sunar.
+                <strong>Program İçeriği:</strong>
+                Eczacılık eğitimi; ilaç kimyası, farmakoloji,
+                farmasötik teknoloji, klinik eczacılık ve toksikoloji
+                gibi alanları kapsar. Öğrenciler ilaçların
+                geliştirilmesi, üretimi, güvenli kullanımı ve hasta
+                danışmanlığı konularında hem teorik hem laboratuvar
+                temelli eğitim alır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar serbest eczane açabilir, ilaç firmalarında
+                Ar-Ge ve üretim birimlerinde çalışabilir veya hastane
+                eczacılığı alanında görev alabilir. Klinik eczacılık
+                ve ilaç güvenliği gibi uzmanlık alanları da mezunlar
+                için kariyer seçenekleri arasındadır.
             </p>
         `
     },
@@ -1741,9 +2262,22 @@ const modalData = {
             </p>
 
             <p>
-                Hayvan sağlığı, hastalıkların teşhisi, tedavisi,
-                cerrahi uygulamalar ve hayvansal üretim alanlarında
-                eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Veterinerlik eğitimi; hayvan anatomisi ve fizyolojisi,
+                hastalıkların teşhis ve tedavisi, cerrahi uygulamalar,
+                hayvansal üretim ve halk sağlığı gibi konuları kapsar.
+                Öğrenciler eğitimlerinin ilerleyen yıllarında klinik
+                stajlar ve saha uygulamaları ile hayvan sağlığı
+                konusunda uygulamalı deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar serbest veteriner kliniği açabilir, kamu
+                kurumlarında (tarım ve hayvancılık birimleri) görev
+                alabilir veya hayvancılık, gıda ve ilaç sektöründeki
+                firmalarda çalışabilir. Akademik kariyer ve araştırma
+                da mezunların yönelebileceği alanlar arasındadır.
             </p>
         `
     },
@@ -1758,9 +2292,22 @@ const modalData = {
             </p>
 
             <p>
-                Hemşirelik öğrencileri temel sağlık bilimlerinin yanında
-                klinik uygulamalar ve hasta bakım süreçleri konusunda
-                eğitim alır.
+                <strong>Program İçeriği:</strong>
+                Hemşirelik eğitimi; temel sağlık bilimleri, hasta
+                bakım süreçleri, klinik uygulamalar ve sağlık
+                yönetimi konularını kapsar. Öğrenciler hastane
+                stajları aracılığıyla farklı kliniklerde hasta
+                bakımı, ilaç uygulamaları ve sağlık danışmanlığı
+                konusunda uygulamalı deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar kamu ve özel hastanelerde, sağlık ocaklarında,
+                huzurevlerinde ve özel sağlık kuruluşlarında hemşire
+                olarak çalışabilir. Yoğun bakım, ameliyathane ve
+                toplum sağlığı gibi alanlarda uzmanlaşma imkânı da
+                bulunur.
             </p>
         `
     },
@@ -1775,8 +2322,22 @@ const modalData = {
             </p>
 
             <p>
-                Beslenme bilimi, toplum sağlığı, hastalıklarda beslenme
-                ve bireysel beslenme planlaması konularına odaklanır.
+                <strong>Program İçeriği:</strong>
+                Beslenme ve Diyetetik bölümü; beslenme bilimi, toplum
+                sağlığı, hastalıklarda beslenme tedavisi ve bireysel
+                beslenme planlaması konularına odaklanır. Öğrenciler
+                farklı yaş gruplarına ve sağlık durumlarına uygun
+                beslenme programları hazırlamayı ve besin değerlerini
+                analiz etmeyi öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar hastanelerde klinik diyetisyen, gıda
+                firmalarında beslenme danışmanı veya serbest diyetisyen
+                olarak çalışabilir. Spor beslenmesi, toplum sağlığı
+                programları ve gıda endüstrisi de mezunların
+                değerlendirebileceği alanlar arasındadır.
             </p>
         `
     },
@@ -1791,8 +2352,22 @@ const modalData = {
             </p>
 
             <p>
-                Hareket sistemi, rehabilitasyon, fiziksel tedavi
-                yöntemleri ve fonksiyonel iyileşme üzerine eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Fizyoterapi ve Rehabilitasyon bölümü; hareket sistemi,
+                nörolojik ve ortopedik rehabilitasyon, fiziksel tedavi
+                yöntemleri ve fonksiyonel iyileşme süreçleri üzerine
+                eğitim verir. Öğrenciler klinik uygulamalar aracılığıyla
+                hasta değerlendirme ve tedavi planlaması konusunda
+                deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar hastanelerde, özel fizyoterapi merkezlerinde,
+                spor kulüplerinde ve rehabilitasyon merkezlerinde
+                fizyoterapist olarak çalışabilir. Spor fizyoterapisi
+                ve pediatrik rehabilitasyon gibi alanlarda uzmanlaşma
+                imkânı da bulunur.
             </p>
         `
     },
@@ -1807,8 +2382,22 @@ const modalData = {
             </p>
 
             <p>
-                Gebelik, doğum, doğum sonrası bakım ve kadın sağlığı
-                alanlarında teorik ve uygulamalı eğitim sunar.
+                <strong>Program İçeriği:</strong>
+                Ebelik eğitimi; gebelik takibi, doğum ve doğum sonrası
+                bakım, yenidoğan sağlığı ve kadın sağlığı konularında
+                teorik ve uygulamalı eğitim sunar. Öğrenciler hastane
+                ve sağlık merkezi stajları aracılığıyla doğum öncesi,
+                sırası ve sonrası bakım süreçlerinde uygulamalı
+                deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar kamu ve özel hastanelerde, doğumevlerinde
+                ve aile sağlığı merkezlerinde ebe olarak çalışabilir.
+                Anne-çocuk sağlığı programları ve toplum sağlığı
+                hizmetleri de mezunların görev alabileceği alanlar
+                arasındadır.
             </p>
         `
     },
@@ -1823,8 +2412,24 @@ const modalData = {
             </p>
 
             <p>
-                Sağlık kurumlarının yönetimi, finans, organizasyon,
-                sağlık politikaları ve yönetim süreçlerine odaklanır.
+                <strong>Program İçeriği:</strong>
+                Sağlık Yönetimi bölümü; sağlık kurumlarının yönetimi,
+                sağlık ekonomisi ve finansmanı, sağlık politikaları
+                ve organizasyon yönetimi gibi konuları kapsar.
+                Öğrenciler hem işletme hem de sağlık sistemleri
+                bilgisini bir araya getirerek sağlık kuruluşlarının
+                verimli şekilde yönetilmesi için gerekli becerileri
+                kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar hastane yöneticiliği, sağlık sigortası
+                şirketleri, sağlık bakanlığı birimleri ve özel sağlık
+                kuruluşlarının idari kadrolarında çalışabilir. Sağlık
+                politikaları geliştirme ve sağlık hizmetleri
+                danışmanlığı da mezunlar için kariyer seçenekleri
+                arasındadır.
             </p>
         `
     },
@@ -1839,8 +2444,22 @@ const modalData = {
             </p>
 
             <p>
-                Oyun tasarımı, 3D modelleme, oyun motorları, görsel
-                tasarım ve interaktif medya alanlarını kapsar.
+                <strong>Program İçeriği:</strong>
+                Dijital Oyun Tasarımı bölümü; oyun tasarımı ilkeleri,
+                3D modelleme, oyun motorları, görsel tasarım, senaryo
+                yazımı ve interaktif medya konularını kapsar. Öğrenciler
+                hem yaratıcı hem de teknik becerileri bir araya
+                getirerek oyun geliştirme sürecinin tüm aşamalarında
+                deneyim kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar oyun stüdyolarında oyun tasarımcısı, seviye
+                tasarımcısı, 3D sanatçı veya oyun geliştirici olarak
+                çalışabilir. Bağımsız oyun geliştirme (indie), animasyon
+                stüdyoları ve interaktif medya projeleri de mezunlar
+                için önemli kariyer alanlarındandır.
             </p>
         `
     },
@@ -1855,8 +2474,21 @@ const modalData = {
             </p>
 
             <p>
-                Radyo, televizyon, sinema, medya üretimi, kurgu ve
-                görsel-işitsel anlatım alanlarında eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Bu bölümde öğrenciler radyo ve televizyon yapımcılığı,
+                sinema tarihi ve kuramı, senaryo yazımı, kurgu ve
+                görsel-işitsel anlatım teknikleri konusunda eğitim
+                alır. Uygulamalı stüdyo çalışmaları ve proje
+                ödevleriyle öğrenciler kamera arkası ve önü süreçlerini
+                birlikte deneyimler.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar televizyon kanallarında, prodüksiyon
+                şirketlerinde, dijital medya platformlarında ve
+                reklam ajanslarında yapımcı, yönetmen yardımcısı,
+                kurgu editörü veya içerik üreticisi olarak çalışabilir.
             </p>
         `
     },
@@ -1871,8 +2503,22 @@ const modalData = {
             </p>
 
             <p>
-                Haber üretimi, araştırmacı gazetecilik, dijital medya
-                ve iletişim teknolojileri üzerine eğitim sunar.
+                <strong>Program İçeriği:</strong>
+                Gazetecilik bölümü; haber toplama ve yazma teknikleri,
+                araştırmacı gazetecilik, medya etiği, dijital
+                gazetecilik ve iletişim teknolojileri konularını
+                kapsar. Öğrenciler hem yazılı hem de dijital medya
+                ortamlarında haber üretme ve içerik hazırlama
+                becerisi kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar gazete, televizyon ve dijital haber
+                platformlarında muhabir, editör veya içerik üreticisi
+                olarak çalışabilir. Kurumsal iletişim birimleri ve
+                basın danışmanlığı da mezunların yönelebileceği
+                alanlar arasındadır.
             </p>
         `
     },
@@ -1887,8 +2533,22 @@ const modalData = {
             </p>
 
             <p>
-                Kurumsal iletişim, marka yönetimi, medya ilişkileri
-                ve halkla ilişkiler stratejileri üzerine yoğunlaşır.
+                <strong>Program İçeriği:</strong>
+                Halkla İlişkiler ve Tanıtım bölümü; kurumsal iletişim,
+                marka yönetimi, medya ilişkileri, kriz yönetimi ve
+                dijital pazarlama iletişimi gibi konuları kapsar.
+                Öğrenciler kurumların hedef kitleleriyle etkili
+                iletişim kurmasını sağlayacak stratejiler geliştirmeyi
+                öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar şirketlerin kurumsal iletişim birimlerinde,
+                halkla ilişkiler ajanslarında, reklam ve pazarlama
+                şirketlerinde uzman veya yönetici olarak çalışabilir.
+                Marka yönetimi ve sosyal medya iletişimi de güncel
+                kariyer alanları arasındadır.
             </p>
         `
     },
@@ -1903,9 +2563,23 @@ const modalData = {
             </p>
 
             <p>
-                İnsan davranışlarını, bilişsel süreçleri, gelişimi
-                ve farklı psikoloji alanlarını bilimsel yöntemlerle
-                inceleyen bir bölümdür.
+                <strong>Program İçeriği:</strong>
+                Psikoloji bölümü; insan davranışları, bilişsel
+                süreçler, gelişim psikolojisi, sosyal psikoloji ve
+                klinik psikoloji gibi farklı alt alanları bilimsel
+                yöntemlerle inceler. Öğrenciler araştırma yöntemleri,
+                istatistik ve psikolojik test uygulamaları konusunda
+                da eğitim alır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Lisans mezunları insan kaynakları, araştırma
+                şirketleri ve sosyal hizmet kurumlarında görev
+                alabilir; klinik psikolog olarak çalışabilmek için
+                genellikle lisansüstü eğitim gerekir. Eğitim
+                kurumları ve danışmanlık merkezleri de değerlendirilebilecek
+                alanlar arasındadır.
             </p>
         `
     },
@@ -1920,8 +2594,22 @@ const modalData = {
             </p>
 
             <p>
-                Toplum, sosyal ilişkiler, kültür, kurumlar ve toplumsal
-                değişim üzerine çalışmalar yürütür.
+                <strong>Program İçeriği:</strong>
+                Sosyoloji bölümü; toplum yapısı, sosyal ilişkiler,
+                kültür, kurumlar, toplumsal değişim ve sosyal
+                araştırma yöntemleri üzerine çalışmalar yürütür.
+                Öğrenciler saha araştırmaları ve veri analizi
+                aracılığıyla toplumsal olguları bilimsel bir
+                bakış açısıyla incelemeyi öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar araştırma şirketlerinde, kamu kurumlarının
+                sosyal politika birimlerinde, sivil toplum
+                kuruluşlarında ve insan kaynakları alanında
+                çalışabilir. Akademik kariyer de sosyoloji
+                mezunlarının tercih ettiği yollardan biridir.
             </p>
         `
     },
@@ -1936,8 +2624,22 @@ const modalData = {
             </p>
 
             <p>
-                İngilizce edebiyat, dil, kültür, edebi analiz ve
-                çeviri çalışmaları gibi alanlara odaklanır.
+                <strong>Program İçeriği:</strong>
+                İngiliz Dili ve Edebiyatı bölümü; İngiliz ve dünya
+                edebiyatı, dilbilim, edebi metin analizi ve çeviri
+                çalışmaları gibi alanları kapsar. Öğrenciler ileri
+                düzey İngilizce dil becerilerinin yanında edebi
+                eserleri eleştirel bir bakış açısıyla incelemeyi
+                öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar çeviri ve yayıncılık sektöründe, eğitim
+                kurumlarında, uluslararası şirketlerde ve medya
+                kuruluşlarında çalışabilir. Öğretmenlik yapabilmek
+                için genellikle pedagojik formasyon eğitimi
+                gerekmektedir.
             </p>
         `
     },
@@ -1952,8 +2654,22 @@ const modalData = {
             </p>
 
             <p>
-                Mimari tasarım, yapı teknolojileri, çizim, modelleme
-                ve mekân planlama konularında eğitim verir.
+                <strong>Program İçeriği:</strong>
+                Mimarlık bölümü; mimari tasarım, yapı teknolojileri,
+                teknik çizim, bilgisayar destekli modelleme ve mekân
+                planlama gibi konuları kapsar. Öğrenciler atölye
+                dersleri aracılığıyla bina ve mekân tasarımı
+                projeleri geliştirerek hem yaratıcı hem de teknik
+                becerilerini bir arada kullanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar mimarlık bürolarında, inşaat ve gayrimenkul
+                şirketlerinde, belediyelerin imar birimlerinde ve
+                kamu kurumlarında mimar olarak çalışabilir. İç
+                mekân tasarımı ve kentsel tasarım da mezunların
+                yönelebileceği uzmanlık alanları arasındadır.
             </p>
         `
     },
@@ -1968,8 +2684,22 @@ const modalData = {
             </p>
 
             <p>
-                Şehirlerin planlanması, ulaşım, arazi kullanımı,
-                sürdürülebilirlik ve bölgesel gelişim konularını inceler.
+                <strong>Program İçeriği:</strong>
+                Şehir ve Bölge Planlama bölümü; kentlerin planlanması,
+                arazi kullanım kararları, ulaşım planlaması,
+                sürdürülebilir kentleşme ve bölgesel gelişim
+                konularını inceler. Öğrenciler harita okuma,
+                coğrafi bilgi sistemleri (CBS) ve planlama
+                yazılımlarını kullanmayı öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar belediyelerin imar ve planlama birimlerinde,
+                kalkınma ajanslarında, kamu kurumlarında ve şehir
+                planlama danışmanlık firmalarında şehir plancısı
+                olarak çalışabilir. Kentsel dönüşüm projeleri de
+                mezunlar için önemli bir kariyer alanıdır.
             </p>
         `
     },
@@ -1984,8 +2714,22 @@ const modalData = {
             </p>
 
             <p>
-                Yönetim, pazarlama, finans, muhasebe, insan kaynakları
-                ve girişimcilik gibi işletme alanlarını kapsar.
+                <strong>Program İçeriği:</strong>
+                İşletme bölümü; yönetim ve organizasyon, pazarlama,
+                finans, muhasebe, insan kaynakları ve girişimcilik
+                gibi işletme fonksiyonlarını kapsayan geniş kapsamlı
+                bir eğitim sunar. Öğrenciler işletmelerin farklı
+                departmanlarında karar alma ve yönetim süreçlerini
+                öğrenir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar özel sektör şirketlerinde, bankacılık ve
+                finans kuruluşlarında, pazarlama ve satış birimlerinde
+                veya kendi işlerini kurarak girişimci olarak
+                çalışabilir. İnsan kaynakları ve proje yönetimi de
+                yaygın tercih edilen kariyer alanlarıdır.
             </p>
         `
     },
@@ -2000,8 +2744,21 @@ const modalData = {
             </p>
 
             <p>
-                Ekonomik sistemler, piyasalar, finans, makroekonomi,
-                mikroekonomi ve ekonomik veri analizi üzerine eğitim verir.
+                <strong>Program İçeriği:</strong>
+                İktisat bölümü; mikroekonomi, makroekonomi, ekonomik
+                politikalar, uluslararası ticaret, finans piyasaları
+                ve ekonomik veri analizi gibi konuları kapsar.
+                Öğrenciler ekonomik olayları analiz etme ve veri
+                temelli değerlendirme yapma becerisi kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar bankacılık, finans kuruluşları, kamu
+                kurumlarının ekonomi ve planlama birimleri ile
+                araştırma şirketlerinde ekonomist veya analist
+                olarak çalışabilir. Uluslararası kuruluşlar da
+                mezunların değerlendirebileceği alanlar arasındadır.
             </p>
         `
     },
@@ -2016,8 +2773,22 @@ const modalData = {
             </p>
 
             <p>
-                Kamu yönetimi, siyaset bilimi, hukuk, kamu politikaları
-                ve yönetim süreçleri üzerine eğitim sunar.
+                <strong>Program İçeriği:</strong>
+                Bu bölümde öğrenciler kamu yönetimi, siyaset bilimi,
+                anayasa hukuku, kamu politikaları ve yönetim
+                süreçleri gibi konularda eğitim alır. Program,
+                kamu kurumlarının işleyişini ve siyasal sistemleri
+                analiz edebilme becerisi kazandırmayı hedefler.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar kamu kurumlarında memur veya uzman olarak
+                çalışabilir, kamu personeli seçme sınavı (KPSS)
+                sonucuna göre farklı devlet kurumlarına
+                yerleşebilir. Sivil toplum kuruluşları ve
+                uluslararası kuruluşlar da mezunlar için
+                değerlendirilebilecek alanlardandır.
             </p>
         `
     },
@@ -2032,8 +2803,21 @@ const modalData = {
             </p>
 
             <p>
-                Temel İslam bilimleri, din bilimleri, felsefe,
-                tarih ve ilgili akademik alanlarda eğitim verir.
+                <strong>Program İçeriği:</strong>
+                İlahiyat eğitimi; temel İslam bilimleri, din
+                bilimleri, İslam tarihi, felsefe ve Arapça gibi
+                alanları kapsar. Öğrenciler dini metinleri analiz
+                etme, dinler tarihi ve din eğitimi konularında
+                akademik bir bakış açısı kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar Diyanet İşleri Başkanlığı bünyesinde din
+                görevlisi olarak çalışabilir, pedagojik formasyon
+                alarak din kültürü ve ahlak bilgisi öğretmenliği
+                yapabilir. Akademik kariyer de mezunların tercih
+                ettiği yollardan biridir.
             </p>
         `
     },
@@ -2048,8 +2832,21 @@ const modalData = {
             </p>
 
             <p>
-                Psikolojik danışma, gelişim, eğitim psikolojisi,
-                rehberlik ve danışmanlık uygulamaları üzerine eğitim verir.
+                <strong>Program İçeriği:</strong>
+                PDR bölümü; psikolojik danışma kuramları, gelişim
+                psikolojisi, eğitim psikolojisi, rehberlik teknikleri
+                ve danışmanlık uygulamaları üzerine eğitim verir.
+                Öğrenciler uygulamalı stajlar aracılığıyla bireysel
+                ve grup danışmanlığı becerileri geliştirir.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar okullarda rehber öğretmen olarak, rehberlik
+                araştırma merkezlerinde veya özel danışmanlık
+                merkezlerinde psikolojik danışman olarak çalışabilir.
+                Kariyer danışmanlığı ve kurumsal danışmanlık da
+                mezunlar için değerlendirilebilecek alanlardır.
             </p>
         `
     },
@@ -2064,9 +2861,22 @@ const modalData = {
             </p>
 
             <p>
-                Erken çocukluk dönemi gelişimi, eğitim yöntemleri,
-                çocuk psikolojisi ve okul öncesi öğretim uygulamalarına
-                odaklanır.
+                <strong>Program İçeriği:</strong>
+                Okul Öncesi Öğretmenliği bölümü; erken çocukluk
+                dönemi gelişimi, oyun ve öğrenme yöntemleri, çocuk
+                psikolojisi ve okul öncesi eğitim programları gibi
+                konuları kapsar. Öğrenciler uygulama okullarında
+                staj yaparak sınıf yönetimi ve etkinlik planlama
+                becerisi kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar Milli Eğitim Bakanlığı'na bağlı anaokulu
+                ve ilkokulların anasınıflarında, özel kreş ve
+                anaokullarında öğretmen olarak çalışabilir.
+                Erken çocukluk eğitimi materyali geliştirme de
+                değerlendirilebilecek alanlar arasındadır.
             </p>
         `
     },
@@ -2081,9 +2891,21 @@ const modalData = {
             </p>
 
             <p>
-                İngilizce dil bilgisi, iletişim becerileri, öğretim
-                yöntemleri ve yabancı dil eğitimi üzerine çalışmalar
-                yürütür.
+                <strong>Program İçeriği:</strong>
+                İngilizce Öğretmenliği bölümü; ileri düzey İngilizce
+                dil becerileri, dil öğretim yöntemleri, öğretim
+                teknolojileri ve sınıf yönetimi konularını kapsar.
+                Öğrenciler okul stajları aracılığıyla ders planlama
+                ve öğretim uygulaması deneyimi kazanır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar Milli Eğitim Bakanlığı'na bağlı okullarda
+                veya özel dil okullarında İngilizce öğretmeni olarak
+                çalışabilir. Dil eğitimi materyali geliştirme,
+                kurumsal dil eğitimi ve çevrimiçi eğitim platformları
+                da değerlendirilebilecek alanlar arasındadır.
             </p>
         `
     },
@@ -2098,8 +2920,21 @@ const modalData = {
             </p>
 
             <p>
-                Matematik öğretim yöntemleri, eğitim bilimleri ve
-                ortaokul düzeyinde matematik eğitimi üzerine yoğunlaşır.
+                <strong>Program İçeriği:</strong>
+                Bu bölümde öğrenciler matematik öğretim yöntemleri,
+                eğitim bilimleri, ölçme-değerlendirme ve ortaokul
+                düzeyinde matematik konularının nasıl öğretileceği
+                üzerine eğitim alır. Uygulama okullarındaki stajlar
+                sayesinde sınıf içi öğretim deneyimi kazanılır.
+            </p>
+
+            <p>
+                <strong>Kariyer Fırsatları:</strong>
+                Mezunlar Milli Eğitim Bakanlığı'na bağlı ortaokullarda
+                matematik öğretmeni olarak çalışabilir. Özel
+                dershaneler, eğitim kurumları ve öğretim materyali
+                geliştirme çalışmaları da mezunlar için değerlendirilebilecek
+                alanlar arasındadır.
             </p>
         `
     }
