@@ -1,24 +1,36 @@
-# Büyük Üniversite Tanıtım Projesi
+# 🎓 Büyük Üniversite Tanıtım Projesi
 
-Üniversite kampüsünü, fakülteleri, bölümleri ve öğrenci yaşamını tanıtmak amacıyla geliştirdiğim web projesi.
+Bu proje; üniversite adaylarının kampüs, bölümler ve yurt imkanları hakkında detaylı bilgi alabilmesi amacıyla geliştirilmiş modern, kullanıcı dostu ve interaktif bir web tanıtım platformudur.
 
-## Kullanılan teknolojiler
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 🚀 Proje Ekran Görüntüleri & Özellikler
 
-## Özellikler
+*   **Ana Sayfa (`index.html`):** Ziyaretçileri karşılayan, üniversitenin genel atmosferini ve öne çıkan özelliklerini tanıtan ana arayüz.
+*   **Bölümler (`bolumler.html`):** Fakülteler ve bölümler hakkında detaylı bilgilerin yer aldığı sayfa.
+*   **Kampüs Yaşamı (`kampus.html`):** Kampüs olanakları, sosyal alanlar, laboratuvarlar ve sosyal yaşam hakkında rehber içerikler.
+*   **Yurt İmkânları (`yurt.html`):** Barınma seçenekleri, yurt özellikleri ve konum detayları.
 
-- Responsive tasarım
-- Etkileşimli menüler
-- Üniversite ve kampüs tanıtımı
-- Fakülte ve bölüm içerikleri
+---
 
-## Canlı demo
+## 🛠️ Kullanılan Teknolojiler
 
-[Siteyi görüntüle](CANLI_SITE_LINKI)
+Proje geliştirilirken aşağıdaki web teknolojileri ve araçlar tercih edilmiştir:
 
-## Geliştirici
+*   **HTML5:** Sayfa yapı taşları ve semantik iskelet.
+*   **CSS3 (`stil.css`):** Modern tasarımlar, esnek düzenler ve şık arayüz giydirmeleri.
+*   **JavaScript (`script.js`):** Dinamik bileşenler, açılır pencereler (modallar), interaktif elementler ve kullanıcı deneyimini artırıcı dokunuşlar.
 
-Halil İbrahim Güven
+---
+
+## 📁 Proje Dosya Yapısı
+
+```text
+Büyük-Üniversite-Tanıtım-Projesi/
+│
+├── index.html       # Ana sayfa
+├── bolumler.html    # Bölümler ve fakülteler sayfası
+├── kampus.html      # Kampüs olanakları ve yaşam
+├── yurt.html        # Barınma ve yurt bilgileri
+├── stil.css         # Tasarım ve stiller
+└── script.js        # Fonksiyonellik ve interaktif kodlar
