@@ -367,6 +367,32 @@ main > p, section > p {
     background: #333340;
     border-radius: 4px;
 }
+.modal-content {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 650px;
+    width: 90%;
+    max-height: 85vh; /* Çok uzun metinlerde ekranın dışına taşmaz */
+    overflow-y: auto; /* Kaydırma çubuğu ekler */
+    color: #f4f4f5;
+    position: relative;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h4 {
+    color: #3b82f6;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.modal-content p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #d4d4d8;
+    margin-bottom: 12px;
+}
 
 .modal-close {
     position: absolute;
@@ -455,4 +481,177 @@ footer {
     .stats-grid {
         grid-template-columns: repeat(2, 1fr) !important;
     }
+}
+/* Ek Sayfalar İçin Genel Tasarım */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 40px 0;
+    background: #1e293b;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card h2, .card h3 {
+    margin-top: 0;
+    color: #0f172a;
+}
+
+.tag {
+    background: #2563eb;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: #2563eb;
+}
+
+.alumni-card .avatar {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.alumni-card .role {
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+/* --- Modal & Backdrop Blur Stilleri --- */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-content {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 550px;
+    width: 100%;
+    color: #f4f4f5;
+    position: relative;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    animation: modalScale 0.25s ease-out forwards;
+}
+
+@keyframes modalScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    color: #a1a1aa;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+    color: #ffffff;
+}
+
+.modal-divider {
+    height: 1px;
+    background: #27272a;
+    margin: 15px 0;
+}
+
+#modalTitle {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#modalText {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d4d4d8;
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mezunlar & Kariyer Portalı - Fırat Üniversitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav-container reveal">
+        <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </div>
+
+    <section class="hero reveal" style="padding-top: 10px;">
+        <h1>Mezunlar & Kariyer Portalı</h1>
+        <p>Fırat Mühendislik mezunlarının gerçek başarıları, sektör analizleri ve kapsamlı kariyer geliştirme rehberi.</p>
+    </section>
+
+    <main class="container reveal">
+        <div class="main-grid">
+
+            <div class="card clickable-card" data-modal="hamza">
+                <div class="card-icon">🏗️</div>
+                <h3>Hamza Yanılmaz</h3>
+                <p>FÜ Makine Mühendisliği Mezunu, Sanayici ve Belediye Başkanı</p>
+                <span class="detail-chip" data-modal="hamza">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="asaf">
+                <div class="card-icon">🎓</div>
+                <h3>Prof. Dr. Asaf Varol</h3>
+                <p>FÜ Yazılım & Adli Bilişim Mühendisliği Kurucu Akademisyeni</p>
+                <span class="detail-chip" data-modal="asaf">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="savunma">
+                <div class="card-icon">🛡️</div>
+                <h3>Savunma Sanayii & Milli Devler</h3>
+                <p>ASELSAN, ROKETSAN, TUSAŞ ve BAYKAR Kıdemli Mühendislerimiz</p>
+                <span class="detail-chip" data-modal="savunma">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="global">
+                <div class="card-icon">🌐</div>
+                <h3>Global Mühendislik & Bulut Ağı</h3>
+                <p>AWS, Google ve Microsoft'taki Kıdemli Yazılım Mimarlarımız</p>
+                <span class="detail-chip" data-modal="global">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="adli">
+                <div class="card-icon">🔍</div>
+                <h3>Adli Bilişim & Dijital Delil</h3>
+                <p>EGM Siber Suçlar, Adalet Bakanlığı ve Dijital Kriminal Uzmanlığı</p>
+                <span class="detail-chip" data-modal="adli">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="ai">
+                <div class="card-icon">🤖</div>
+                <h3>Yapay Zeka & Veri Bilimi</h3>
+                <p>LLM, Computer Vision, MLOps ve Büyük Veri Mühendisliği</p>
+                <span class="detail-chip" data-modal="ai">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="fintek">
+                <div class="card-icon">🏦</div>
+                <h3>FinTek & Bankacılık Altyapısı</h3>
+                <p>Milisaniyelik ödeme sistemleri ve finansal veri güvenliği</p>
+                <span class="detail-chip" data-modal="fintek">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="oyun">
+                <div class="card-icon">🎮</div>
+                <h3>Oyun & Teknokent Girişimciliği</h3>
+                <p>Unity/Unreal oyun geliştirme ve Teknokent startup ekosistemi</p>
+                <span class="detail-chip" data-modal="oyun">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="staj">
+                <div class="card-icon">💼</div>
+                <h3>Staj & İlk İş Bulma Rehberi</h3>
+                <p>Ocak-Mart başvuru dönemi, ATS uyumlu CV ve LinkedIn networking</p>
+                <span class="detail-chip" data-modal="staj">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="github">
+                <div class="card-icon">📦</div>
+                <h3>GitHub & Teknik Portfolyo</h3>
+                <p>Clean code ilkeleri, README standartları ve açık kaynak katkısı</p>
+                <span class="detail-chip" data-modal="github">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="leetcode">
+                <div class="card-icon">🧩</div>
+                <h3>LeetCode & Sistem Tasarımı</h3>
+                <p>Big O karmaşıklığı, canlı kodlama ve System Design mülakatları</p>
+                <span class="detail-chip" data-modal="leetcode">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="alumni">
+                <div class="card-icon">🤝</div>
+                <h3>Alumni Mentörlük & Referans Ağı</h3>
+                <p>Birebir mentörlük, bitirme projesi danışmanlığı ve şirket referansı</p>
+                <span class="detail-chip" data-modal="alumni">Detayları Gör</span>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modal Yapısı -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modalClose" class="modal-close">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fırat Üniversitesi Öğrenci Tanıtım Portalıdır.</p>
+    </footer>
+
+    <!-- Önce veri dosyası, ardından script dosyası yüklenir -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

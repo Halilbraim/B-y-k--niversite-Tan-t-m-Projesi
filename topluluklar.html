@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öğrenci Toplulukları - Fırat Üniversitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav-container reveal">
+        <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </div>
+
+    <section class="hero reveal" style="padding-top: 10px;">
+        <h1>Öğrenci Kulüpleri ve Topluluklar</h1>
+        <p>Sosyal, teknik ve kültürel etkinliklerle kendinizi geliştirin.</p>
+    </section>
+
+    <main class="container reveal">
+        <div class="main-grid">
+
+            <div class="card clickable-card" data-modal="ogrenci-topluluklari">
+                <div class="card-icon">💻</div>
+                <h3>Yazılım ve Yapay Zeka Kulübü</h3>
+                <p>C, Python, Web/Mobil geliştirme workshopları, Hackathonlar ve teknik geziler düzenler.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="ogrenci-yarismalar">
+                <div class="card-icon">⚙️</div>
+                <h3>IEEE Fırat Öğrenci Kolu</h3>
+                <p>Uluslararası mühendislik projeleri, kariyer günleri ve akademik seminerler yürütür.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="adli">
+                <div class="card-icon">🛡️</div>
+                <h3>Siber Güvenlik Topluluğu</h3>
+                <p>Ağ güvenliği, CTF yarışmaları, sızma testleri ve temel eğitimler verir.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modal Yapısı -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modalClose" class="modal-close">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fırat Üniversitesi Öğrenci Tanıtım Portalıdır.</p>
+    </footer>
+
+    <!-- Önce veri dosyası, ardından script dosyası yüklenir -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

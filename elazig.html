@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elazığ Şehir Rehberi - Fırat Üniversitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav-container reveal">
+        <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </div>
+
+    <section class="hero reveal" style="padding-top: 10px;">
+        <h1>Elazığ Öğrenci Şehir Rehberi</h1>
+        <p>Gakgoşlar diyarı Elazığ'da yaşam, ulaşım, gezilecek yerler ve öğrencilik rehberi.</p>
+    </section>
+
+    <main class="container reveal">
+        <div class="main-grid">
+
+            <div class="card clickable-card" data-modal="ulasim-otobus">
+                <div class="card-icon">🚌</div>
+                <h3>Şehir İçi Ulaşım</h3>
+                <p>Belediye otobüsleri ve minibüsler ile kampüse ulaşım çok rahattır. Ulaşımda öğrenci Elazığ Kart kullanılır.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="yerleske-harput">
+                <div class="card-icon">🏰</div>
+                <h3>Gezilecek Yerler</h3>
+                <p>Tarihi Harput Mahallesi, Hazar Gölü, Buzluk Mağarası ve Keban Barajı gibi birçok doğal ve tarihi mekanı gezebilirsiniz.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+            <div class="card clickable-card" data-modal="yasam-kantin">
+                <div class="card-icon">🛍️</div>
+                <h3>Sosyal Yaşam</h3>
+                <p>Üniversite Mahallesi ve Bosna Hersek Bulvarı öğrenci kafeleri ve sosyal alanlarıyla öne çıkan ana noktalardır.</p>
+                <span class="detail-chip">Detayları Gör</span>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modal Yapısı -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modalClose" class="modal-close">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fırat Üniversitesi Öğrenci Tanıtım Portalıdır.</p>
+    </footer>
+
+    <!-- Önce veri dosyası, ardından script dosyası yüklenir -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
