@@ -64,6 +64,83 @@ function trLower(str) {
 
 const modalData = {
 
+    "konaklama": {
+    title: "🏠 Konaklama ve Yurtlar",
+    text: `
+        <p>Elazığ'da üniversite öğrencileri için farklı konaklama seçenekleri bulunmaktadır. Öğrenciler ihtiyaçlarına ve bütçelerine uygun olarak çeşitli yurt ve konaklama alternatiflerini değerlendirebilmektedir. Kampüs çevresindeki konaklama seçenekleri öğrencilerin üniversiteye ulaşımını kolaylaştırabilmektedir. Yurtlarda öğrencilerin günlük ihtiyaçlarını karşılamaya yönelik farklı imkanlar bulunabilmektedir.</p>
+
+        <p>Konaklama seçimi yapılırken üniversiteye olan mesafe önemli bir kriter olarak değerlendirilebilir. Ulaşım imkanlarının yakın olması öğrencilerin günlük hayatını kolaylaştırmaktadır. Öğrenciler konaklama seçeneklerini araştırırken çalışma ortamı ve sosyal imkanları da değerlendirebilir. Farklı konaklama seçeneklerinin özelliklerini karşılaştırmak öğrencilerin kendileri için uygun tercihi yapmasına yardımcı olabilir.</p>
+
+        <p>Yurt yaşamı öğrencilerin farklı kişilerle tanışmasına ve sosyal çevre oluşturmasına da katkı sağlayabilmektedir. Ortak yaşam alanları öğrencilerin iletişim ve dayanışma becerilerini geliştirebilmektedir. Öğrenciler konaklama tercihlerini yaparken kendi ihtiyaçlarını ve günlük yaşam düzenlerini göz önünde bulundurabilir. Elazığ'daki konaklama seçenekleri öğrencilerin üniversite hayatını daha rahat sürdürebilmelerine yardımcı olmaktadır.</p>
+    `
+},
+
+"yemek": {
+    title: "🍽️ Yeme İçme",
+    text: `
+        <p>Elazığ'da öğrencilerin günlük yaşamlarında değerlendirebileceği farklı yeme içme seçenekleri bulunmaktadır. Üniversite çevresinde öğrencilerin kolayca ulaşabileceği çeşitli yemek alternatifleri yer almaktadır. Öğrenciler günlük ihtiyaçlarına göre farklı mekanları değerlendirebilmektedir. Kampüs çevresindeki seçenekler özellikle yoğun ders programına sahip öğrenciler için kolaylık sağlayabilmektedir.</p>
+
+        <p>Şehir merkezinde de farklı yemek kültürlerini deneyimleyebilecek çeşitli mekanlar bulunmaktadır. Öğrenciler arkadaşlarıyla birlikte farklı bölgeleri keşfederek yeni yemek seçenekleri deneyebilmektedir. Yeme içme mekanları aynı zamanda öğrencilerin sosyal olarak vakit geçirebileceği alanlar arasında yer almaktadır. Farklı mekanları araştırmak öğrencilerin kendi bütçelerine ve tercihlerine uygun seçenekleri bulmasına yardımcı olabilir.</p>
+
+        <p>Öğrenciler günlük yaşamlarında kampüs çevresindeki ve şehir merkezindeki seçeneklerden yararlanabilmektedir. Arkadaşlarla yapılan yemek buluşmaları üniversite hayatının sosyal yönünü güçlendirebilmektedir. Farklı mekanları keşfetmek öğrencilerin Elazığ'ı daha yakından tanımasına da katkı sağlayabilir. Elazığ'daki yeme içme seçenekleri öğrencilerin günlük ihtiyaçlarını karşılamalarının yanında sosyal yaşamlarına da çeşitlilik katmaktadır.</p>
+    `
+},
+
+"alisveris": {
+    title: "🛒 Alışveriş",
+    text: `
+        <p>Elazığ'da öğrencilerin günlük ihtiyaçlarını karşılayabileceği çeşitli alışveriş noktaları bulunmaktadır. Öğrenciler temel ihtiyaçlarını şehir içerisinde bulunan farklı mağaza ve marketlerden karşılayabilmektedir. Üniversite çevresindeki alışveriş seçenekleri günlük yaşamı kolaylaştırmaktadır. Şehir merkezinde ise farklı ihtiyaçlara yönelik daha geniş seçenekler bulunabilmektedir.</p>
+
+        <p>Öğrenciler kırtasiye ve kişisel ihtiyaçları için farklı mağazaları değerlendirebilmektedir. Marketler günlük yiyecek ve temel ihtiyaçların karşılanmasında önemli bir yere sahiptir. Alışveriş merkezleri öğrencilerin farklı ürünleri bir arada bulmasına yardımcı olabilmektedir. Öğrencilerin alışveriş yaparken ihtiyaçlarını önceden belirlemesi zamanlarını daha verimli kullanmalarını sağlayabilir.</p>
+
+        <p>Şehir içerisindeki farklı alışveriş bölgelerini keşfetmek öğrencilerin çevreyi daha iyi tanımasına yardımcı olabilir. Alışveriş noktalarına ulaşım sağlamak için şehir içi toplu taşıma seçeneklerinden yararlanılabilmektedir. Öğrenciler ihtiyaçlarına göre kampüs çevresini veya şehir merkezini tercih edebilmektedir. Elazığ'daki alışveriş imkanları öğrencilerin günlük üniversite yaşamındaki ihtiyaçlarını karşılamalarına yardımcı olmaktadır.</p>
+    `
+},
+
+"saglik": {
+    title: "🏥 Sağlık Hizmetleri",
+    text: `
+        <p>Elazığ'da öğrencilerin ihtiyaç duyabileceği çeşitli sağlık hizmetleri bulunmaktadır. Öğrenciler sağlık ihtiyaçları için farklı sağlık kuruluşlarından ve ilgili birimlerden yararlanabilmektedir. Üniversite yaşamında sağlık hizmetlerine kolay ulaşabilmek öğrenciler açısından önemli bir konudur. Kampüs ve şehir çevresindeki sağlık imkanlarını önceden bilmek öğrencilerin ihtiyaç halinde daha bilinçli hareket etmesine yardımcı olabilir.</p>
+
+        <p>Öğrenciler sağlık hizmetlerinden yararlanırken ilgili kurumların çalışma koşullarını ve hizmet kapsamını öğrenebilir. Farklı sağlık kuruluşları farklı alanlarda hizmet sunabilmektedir. Acil durumlarda uygun sağlık hizmetine ulaşılması büyük önem taşımaktadır. Öğrencilerin yaşadıkları bölgedeki sağlık kuruluşlarının konumlarını bilmeleri günlük yaşam açısından faydalı olabilir.</p>
+
+        <p>Sağlık hizmetleri hakkında güncel ve doğru bilgilerin ilgili kurumlardan alınması önemlidir. Öğrenciler sağlık ihtiyaçları konusunda üniversitenin ilgili birimlerinden de bilgi alabilmektedir. Sağlık imkanlarını bilmek öğrencilerin şehir hayatına daha kolay uyum sağlamasına yardımcı olabilir. Elazığ'daki sağlık hizmetleri öğrencilerin üniversite hayatları boyunca ihtiyaç duyabilecekleri temel imkanlara ulaşmalarına katkı sağlamaktadır.</p>
+    `
+},
+
+"etkinlik": {
+    title: "🎉 Etkinlikler",
+    text: `
+        <p>Elazığ'da öğrencilerin katılabileceği çeşitli sosyal, kültürel ve akademik etkinlikler gerçekleştirilebilmektedir. Üniversite ortamında düzenlenen etkinlikler öğrencilerin ders dışındaki zamanlarını değerlendirmelerine yardımcı olmaktadır. Seminer ve söyleşiler öğrencilerin farklı konular hakkında yeni bilgiler edinmesini sağlamaktadır. Kültürel etkinlikler öğrencilerin sosyal yaşamlarını daha hareketli hale getirebilmektedir.</p>
+
+        <p>Öğrenci toplulukları tarafından gerçekleştirilen etkinlikler farklı ilgi alanlarına sahip öğrencileri bir araya getirmektedir. Yarışmalar öğrencilerin hem eğlenmesine hem de ekip çalışması deneyimi kazanmasına yardımcı olabilmektedir. Konferanslar ve kariyer etkinlikleri öğrencilerin mesleki gelişimine katkı sağlayabilmektedir. Sanatsal faaliyetler öğrencilerin yaratıcılıklarını geliştirmelerine ve kendilerini ifade etmelerine fırsat verebilmektedir.</p>
+
+        <p>Etkinliklere katılmak öğrencilerin yeni arkadaşlıklar kurmasına yardımcı olabilir. Farklı etkinlikleri takip etmek öğrencilerin üniversite hayatından daha fazla yararlanmasını sağlayabilir. Öğrenciler ilgi alanlarına uygun etkinlikleri tercih ederek sosyal çevrelerini geliştirebilir. Elazığ'daki etkinlikler öğrencilerin akademik yaşamlarının yanında sosyal ve kültürel açıdan da aktif bir üniversite hayatı geçirmelerine katkı sağlamaktadır.</p>
+    `
+},
+
+"ogrenci-hayati": {
+    title: "🎓 Öğrenci Hayatı",
+    text: `
+        <p>Elazığ'da öğrenci hayatı, üniversite eğitiminin yanında sosyal ve kültürel aktivitelerle birlikte şekillenmektedir. Öğrenciler ders programlarının dışında arkadaşlarıyla vakit geçirerek sosyal çevrelerini geliştirebilmektedir. Üniversite çevresindeki farklı mekanlar öğrencilerin günlük yaşamını kolaylaştırmaktadır. Kampüs ortamı öğrencilerin hem akademik hem de sosyal açıdan zaman geçirebildiği önemli alanlardan biridir.</p>
+
+        <p>Öğrenci toplulukları üniversite hayatının sosyal yönünü geliştiren önemli oluşumlar arasında yer almaktadır. Kulüplere katılmak öğrencilerin farklı ilgi alanlarını keşfetmesine yardımcı olabilmektedir. Şehirdeki tarihi ve doğal alanları ziyaret etmek öğrencilerin Elazığ'ı daha yakından tanımasını sağlayabilir. Sosyal etkinliklere katılmak öğrencilerin üniversite yıllarında farklı deneyimler kazanmasına yardımcı olmaktadır.</p>
+
+        <p>Öğrenciler ders çalışma ve sosyal aktiviteler arasında kendi günlük düzenlerini oluşturabilmektedir. Farklı arkadaş gruplarıyla vakit geçirmek üniversite yıllarının sosyal yönünü güçlendirebilmektedir. Şehir içerisinde yeni yerler keşfetmek öğrencilerin boş zamanlarını değerlendirmesine yardımcı olabilir. Elazığ'daki öğrenci hayatı, akademik eğitimin yanında sosyal ve kültürel deneyimler kazanmak için çeşitli imkanlar sunmaktadır.</p>
+    `
+},
+
+"haftasonu": {
+    title: "🌄 Hafta Sonu Aktiviteleri",
+    text: `
+        <p>Elazığ'da öğrenciler hafta sonlarını değerlendirmek için farklı sosyal ve kültürel aktiviteler gerçekleştirebilmektedir. Şehrin tarihi bölgeleri hafta sonu gezileri için değerlendirilebilecek seçenekler arasında yer almaktadır. Harput gibi tarihi alanlar öğrencilerin şehrin kültürel geçmişini daha yakından tanımasına yardımcı olabilir. Doğal alanlar da şehir hayatından uzaklaşmak isteyen öğrenciler için farklı alternatifler sunmaktadır.</p>
+
+        <p>Hazar Gölü çevresi doğal güzellikleri görmek isteyen öğrencilerin değerlendirebileceği bölgelerden biridir. Arkadaşlarla yapılan şehir gezileri hafta sonlarının daha keyifli geçirilmesine yardımcı olabilmektedir. Öğrenciler şehir merkezindeki sosyal alanlarda vakit geçirerek farklı aktiviteler gerçekleştirebilmektedir. Kültürel etkinlikleri takip etmek hafta sonu planlarına farklı seçenekler ekleyebilir.</p>
+
+        <p>Hafta sonu aktiviteleri öğrencilerin ders yoğunluğundan uzaklaşarak sosyal çevreleriyle vakit geçirmesine yardımcı olmaktadır. Farklı bölgeleri keşfetmek öğrencilerin Elazığ hakkındaki deneyimlerini genişletebilmektedir. Öğrenciler kendi ilgi alanlarına göre gezi, sosyal etkinlik veya kültürel faaliyetleri tercih edebilmektedir. Elazığ, öğrencilerin hafta sonlarını farklı aktivitelerle değerlendirebileceği çeşitli seçeneklere sahip bir şehir olarak öne çıkmaktadır.</p>
+    `
+},
+
 
     // ==========================================
     // YURTLAR
@@ -2937,9 +3014,179 @@ const modalData = {
                 alanlar arasındadır.
             </p>
         `
-    }
+    },
+    "hamza": {
+    title: "🏗️ Hamza Yanılmaz",
+    text: `
+        <p>Hamza Yanılmaz, mezuniyet sonrasında kariyer yolculuğuna başarılı bir şekilde devam eden mezunlarımızdan biridir. Üniversite yıllarında aldığı eğitim, mesleki gelişiminin temelini oluşturmuştur. Öğrencilik döneminde edindiği teorik bilgiler, iş hayatında karşılaştığı problemlere çözüm üretmesine yardımcı olmuştur. Farklı projelerde görev alarak ekip çalışması konusunda kendisini geliştirmiştir. Teknoloji ve mesleki gelişmeleri takip ederek kendisini sürekli yenilemeye çalışmaktadır. Üniversitede kazandığı deneyimleri profesyonel hayatında kullanmaktadır. Karşılaştığı zorlukları yeni şeyler öğrenmek için bir fırsat olarak değerlendirmektedir. Kariyerinde ilerlerken disiplinli ve planlı çalışmaya önem vermektedir. Mesleki hedeflerine ulaşmak için kendisini geliştirmeye devam etmektedir. Başarı hikâyesi, öğrencilerimiz için ilham verici bir örnek oluşturmaktadır.</p>
+    `
+},
 
-};
+"asaf": {
+    title: "💻 Asaf",
+    text: `
+        <p>Asaf, üniversite eğitiminin ardından teknoloji ve yazılım alanında kendisini geliştiren mezunlarımızdan biridir. Üniversite yıllarında kazandığı programlama bilgilerini farklı çalışmalarla pekiştirmiştir. Yazılım dünyasındaki yeni teknolojileri takip etmeye önem vermektedir. Projeler geliştirerek teorik bilgilerini uygulamaya dönüştürmektedir. Problem çözme becerilerini geliştirmek için farklı teknikler üzerinde çalışmaktadır. Ekip içerisinde çalışarak iletişim ve iş birliği yeteneklerini de geliştirmiştir. Kendi alanında deneyim kazanırken sürekli yeni bilgiler öğrenmeye devam etmektedir. Teknolojinin hızlı değişimine uyum sağlamak için kendisini güncel tutmaktadır. Gelecekte daha büyük ve kapsamlı projelerde yer almayı hedeflemektedir. Çalışmaları, yazılım alanında kariyer yapmak isteyen öğrenciler için güzel bir örnektir.</p>
+    `
+},
+
+"savunma": {
+    title: "🛡️ Savunma Sanayii",
+    text: `
+        <p>Savunma sanayii, teknoloji ve mühendisliğin bir araya geldiği önemli çalışma alanlarından biridir. Bu alanda görev alan mezunlarımız üniversitede kazandıkları teknik bilgileri profesyonel hayatta kullanmaktadır. Savunma projelerinde dikkatli ve sistematik çalışmak büyük önem taşımaktadır. Mühendislik bilgisi yanında ekip çalışması da başarılı projelerin önemli bir parçasıdır. Mezunlarımız farklı teknolojiler üzerinde çalışarak kendilerini geliştirme fırsatı bulmaktadır. Yeni nesil sistemlerin geliştirilmesi sürekli öğrenmeyi gerektirmektedir. Üniversitede yapılan projeler, öğrencilerin bu sektöre hazırlanmasına katkı sağlamaktadır. Teknik problemlere çözüm üretme becerisi bu alanda önemli bir avantaj sağlamaktadır. Disiplinli çalışma ve sorumluluk bilinci sektör içerisinde büyük önem taşımaktadır. Bu kariyer alanı, teknik yeteneklerini geliştirmek isteyen öğrenciler için önemli fırsatlar sunmaktadır.</p>
+    `
+},
+
+"global": {
+    title: "🌍 Global Kariyer",
+    text: `
+        <p>Global kariyer, mezunların farklı ülkelerde ve uluslararası şirketlerde çalışma fırsatı elde etmesini ifade etmektedir. Uluslararası çalışma ortamları farklı kültürlerle iletişim kurma imkânı sağlamaktadır. Yabancı dil bilgisi global kariyer hedeflerinde önemli bir avantaj oluşturmaktadır. Mezunlarımız farklı ülkelerdeki çalışma kültürlerini deneyimleyerek kendilerini geliştirebilmektedir. Uluslararası projelerde görev almak profesyonel deneyimin genişlemesine katkı sağlamaktadır. Farklı bakış açılarıyla çalışmak problem çözme yeteneğini geliştirebilmektedir. Teknolojinin gelişmesi sayesinde dünyanın farklı bölgelerindeki ekiplerle çalışmak daha kolay hale gelmiştir. Global kariyer hedefleyen öğrencilerin akademik gelişimlerinin yanında iletişim becerilerine de önem vermesi gerekmektedir. Farklı kültürlere açık olmak uluslararası çalışma ortamlarına uyum sağlamayı kolaylaştırmaktadır. Global kariyer, öğrencilere geniş bir profesyonel çevre oluşturma fırsatı sunmaktadır.</p>
+    `
+},
+
+"adli": {
+    title: "⚖️ Adli Bilişim",
+    text: `
+        <p>Adli bilişim, dijital ortamda bulunan verilerin incelenmesi ve analiz edilmesiyle ilgilenen önemli bir çalışma alanıdır. Bu alanda bilgisayar bilimleri ile hukuk süreçleri bir araya gelmektedir. Dijital verilerin doğru şekilde incelenmesi büyük dikkat ve teknik bilgi gerektirmektedir. Adli bilişim uzmanları farklı dijital kaynaklardan elde edilen bilgileri analiz edebilmektedir. Üniversitede öğrenilen bilgisayar ve yazılım bilgileri bu alanda önemli bir temel oluşturmaktadır. Analitik düşünme ve problem çözme becerileri mesleki çalışmalar açısından önemlidir. Teknolojinin gelişmesiyle birlikte adli bilişimin çalışma alanları da genişlemektedir. Dijital güvenlik konusunda bilinçli olmak bu alanda çalışan kişiler için önemli bir kazanımdır. Alan sürekli geliştiği için yeni teknolojileri ve yöntemleri takip etmek gerekmektedir. Adli bilişim, teknoloji ve analiz alanlarına ilgi duyan öğrenciler için dikkat çekici bir kariyer seçeneğidir.</p>
+    `
+},
+
+"ai": {
+    title: "🤖 Yapay Zekâ",
+    text: `
+        <p>Yapay zekâ, günümüzde birçok farklı sektörde kullanılan gelişen teknoloji alanlarından biridir. Bu alanda bilgisayarların belirli görevleri gerçekleştirebilmesi için farklı yöntemler kullanılmaktadır. Makine öğrenmesi ve veri analizi yapay zekâ çalışmalarının önemli konuları arasında yer almaktadır. Öğrenciler temel programlama bilgilerini kullanarak yapay zekâ alanında kendilerini geliştirebilir. Matematiksel düşünme ve problem çözme becerileri bu alandaki çalışmalar için faydalıdır. Yapay zekâ projelerinde veri toplama ve verileri doğru şekilde değerlendirme önemli bir aşamadır. Teknolojinin hızlı gelişmesi bu alanda sürekli öğrenmeyi gerekli kılmaktadır. Farklı sektörlerde yapay zekâ çözümlerine olan ilgi giderek artmaktadır. Bu alanda çalışmak isteyen öğrencilerin programlama ve veri konularında kendilerini geliştirmeleri faydalı olacaktır. Yapay zekâ, geleceğin teknoloji kariyerleri arasında önemli bir yere sahip olmaya devam etmektedir.</p>
+    `
+},
+
+"fintek": {
+    title: "💳 Fintek",
+    text: `
+        <p>Fintek, finansal hizmetlerle teknolojinin birleştiği modern ve gelişen bir çalışma alanıdır. Bu sektörde yazılım ve dijital teknolojiler finansal işlemleri kolaylaştırmak için kullanılmaktadır. Mobil ödeme sistemleri ve dijital bankacılık fintek alanındaki gelişmelere örnek olarak gösterilebilir. Yazılım bilgisi olan mezunlar bu sektörde farklı projelerde görev alabilmektedir. Finansal verilerin güvenli bir şekilde işlenmesi sektör açısından büyük önem taşımaktadır. Siber güvenlik de fintek sistemlerinin önemli parçalarından biridir. Fintek projelerinde kullanıcı deneyimi ve kolay kullanılabilirlik de dikkate alınmaktadır. Teknolojik gelişmeler finans sektöründeki çalışma yöntemlerini değiştirmektedir. Bu alanda çalışmak isteyen öğrencilerin yazılım ve teknoloji bilgilerinin yanında finans konularına da ilgi duyması faydalı olabilir. Fintek, teknoloji ile finansı birleştirmek isteyen mezunlar için geniş kariyer olanakları sunmaktadır.</p>
+    `
+},
+
+"oyun": {
+    title: "🎮 Oyun Geliştirme",
+    text: `
+        <p>Oyun geliştirme, yazılım ve yaratıcılığın bir arada kullanıldığı teknoloji alanlarından biridir. Bir oyun projesinin ortaya çıkması için programlama, tasarım ve farklı teknik çalışmaların birlikte yürütülmesi gerekir. Oyun motorları geliştiricilerin fikirlerini dijital ortama aktarmasına yardımcı olmaktadır. Programlama bilgisi oyun mekaniklerinin oluşturulmasında önemli bir rol oynamaktadır. Grafik ve ses gibi unsurlar da oyuncuların deneyimini geliştirmektedir. Oyun geliştirme ekip çalışmasının oldukça önemli olduğu alanlardan biridir. Proje sürecinde karşılaşılan teknik sorunlar problem çözme becerilerini geliştirmektedir. Yeni teknolojileri takip etmek geliştiricilerin kendilerini sürekli yenilemesini sağlamaktadır. Öğrenciler küçük projeler geliştirerek oyun sektörüne yönelik deneyim kazanmaya başlayabilir. Oyun geliştirme, yazılım ve yaratıcı projelere ilgi duyan öğrenciler için keyifli bir kariyer alanıdır.</p>
+    `
+},
+
+"staj": {
+    title: "💼 Staj Deneyimi",
+    text: `
+        <p>Staj, öğrencilerin üniversitede öğrendikleri bilgileri gerçek çalışma ortamında deneyimlemelerini sağlayan önemli bir süreçtir. Staj sürecinde öğrenciler profesyonel çalışma düzenini yakından tanıma fırsatı bulmaktadır. Gerçek projelerde görev almak teorik bilgilerin uygulamaya dönüştürülmesine yardımcı olmaktadır. İş arkadaşlarıyla iletişim kurmak öğrencilerin ekip çalışması becerilerini geliştirmektedir. Staj sırasında farklı teknolojiler ve çalışma yöntemleri öğrenilebilmektedir. Karşılaşılan problemlerin çözülmesi öğrencilerin mesleki özgüvenlerini artırmaktadır. Staj deneyimi öğrencilerin hangi alanlarda çalışmak istediklerini keşfetmelerine yardımcı olabilir. Profesyonel iş ortamını erken dönemde görmek kariyer planlamasına katkı sağlamaktadır. Staj sırasında oluşturulan bağlantılar ilerleyen dönemlerde yeni fırsatların oluşmasına yardımcı olabilir. Bu nedenle staj, öğrencilerin kariyer yolculuğunda önemli bir deneyim olarak değerlendirilmektedir.</p>
+    `
+},
+
+"github": {
+    title: "🐙 GitHub",
+    text: `
+        <p>GitHub, yazılım projelerinin saklanması ve geliştirilmesi için kullanılan popüler platformlardan biridir. Öğrenciler projelerini GitHub üzerinde paylaşarak çalışmalarını daha düzenli şekilde takip edebilir. Git sistemi sayesinde projelerde yapılan değişiklikler kayıt altında tutulabilmektedir. Ekip halinde çalışan geliştiriciler aynı proje üzerinde birlikte çalışabilmektedir. GitHub profili, öğrencilerin geliştirdikleri projeleri sergilemeleri açısından faydalı olabilir. Açık kaynak projelerine katkı yapmak farklı yazılım teknolojilerinin öğrenilmesine yardımcı olmaktadır. Proje geçmişinin tutulması yapılan çalışmaların gelişimini görmeyi kolaylaştırmaktadır. GitHub kullanmak öğrencilerin yazılım geliştirme süreçlerini daha profesyonel şekilde öğrenmesine katkı sağlayabilir. Projeleri düzenli ve anlaşılır şekilde paylaşmak geliştiricilerin çalışmalarını daha kolay tanıtmasına yardımcı olur. Bu nedenle GitHub, yazılım alanında kariyer hedefleyen öğrenciler için faydalı bir araçtır.</p>
+    `
+},
+
+"leetcode": {
+    title: "🧩 LeetCode",
+    text: `
+        <p>LeetCode, programlama ve algoritma problemleri üzerinde çalışma yapılabilen bir platformdur. Platform farklı seviyelerde birçok problem çözme fırsatı sunmaktadır. Algoritma soruları öğrencilerin problem çözme becerilerini geliştirmesine yardımcı olmaktadır. Farklı programlama dilleri kullanılarak aynı problem üzerinde çalışmalar yapılabilmektedir. Düzenli problem çözmek algoritmik düşünme yeteneğinin gelişmesine katkı sağlayabilir. Problemleri çözerken performans ve kod verimliliği gibi konular da öğrenilmektedir. Bu çalışmalar yazılım mülakatlarına hazırlanma sürecinde de faydalı olabilir. Öğrenciler çözdükleri problemlerin üzerinden geçerek farklı çözüm yöntemlerini karşılaştırabilir. Algoritma bilgisi geliştikçe daha karmaşık problemlerin çözülmesi mümkün hale gelmektedir. LeetCode, yazılım becerilerini geliştirmek isteyen öğrenciler için pratik yapma imkânı sunmaktadır.</p>
+    `
+},
+
+"alumni": {
+    title: "🎓 Mezunlar",
+    text: `
+        <p>Üniversitemizden mezun olan öğrenciler farklı sektörlerde kariyerlerine devam etmektedir. Mezunlarımızın sahip olduğu farklı deneyimler öğrenciler için önemli bir ilham kaynağı oluşturmaktadır. Mezuniyet sonrasında iş hayatına atılan öğrenciler üniversitede kazandıkları bilgileri profesyonel ortamda kullanmaktadır. Farklı sektörlerde görev almak mezunların farklı alanlarda uzmanlaşmasına imkân sağlamaktadır. Mezunlarımız teknoloji, mühendislik, yazılım ve birçok farklı alanda çalışmalar gerçekleştirebilmektedir. Üniversite döneminde yapılan projeler kariyer hayatına hazırlanma konusunda önemli katkılar sağlamaktadır. Staj ve proje deneyimleri mezuniyet sonrasında iş hayatına geçişi kolaylaştırabilmektedir. Mezunların kariyer hikâyeleri mevcut öğrencilerin gelecek planlarını şekillendirmesine yardımcı olabilir. Mezunlar arasındaki iletişim ve dayanışma üniversite topluluğunun devamlılığı açısından önemlidir. Her mezunun farklı bir kariyer yolculuğu olması, öğrencilere birçok farklı gelecek seçeneği göstermektedir.</p>
+    `
+},
+"ogrenci-topluluklari": {
+    title: "💻 Yazılım ve Yapay Zeka Kulübü",
+    text: `
+        <p>Yazılım ve Yapay Zeka Kulübü, teknoloji alanına ilgi duyan öğrencileri bir araya getiren öğrenci topluluklarından biridir. Kulüp kapsamında C ve Python gibi programlama dilleri üzerine çeşitli çalışmalar gerçekleştirilmektedir. Web ve mobil uygulama geliştirme konusunda öğrencilerin kendilerini geliştirmelerine yönelik etkinlikler düzenlenmektedir. Workshoplar sayesinde öğrenciler öğrendikleri teorik bilgileri uygulamalı olarak deneyimleme fırsatı bulmaktadır. Kulüp üyeleri farklı projeler üzerinde çalışarak takım çalışması ve problem çözme becerilerini geliştirebilmektedir. Hackathonlar öğrencilerin kısa süre içerisinde proje üretme ve fikirlerini hayata geçirme deneyimi kazanmalarına yardımcı olmaktadır. Düzenlenen teknik geziler sayesinde öğrenciler teknoloji sektörünü ve profesyonel çalışma ortamlarını daha yakından tanıyabilmektedir. Kulüp etkinlikleri öğrencilerin hem teknik hem de sosyal becerilerini geliştirmelerine katkı sağlamaktadır. Farklı seviyelerdeki öğrencilerin bir araya gelmesi bilgi paylaşımını ve dayanışmayı artırmaktadır. Yazılım ve Yapay Zeka Kulübü, teknoloji alanında kendisini geliştirmek isteyen öğrenciler için aktif bir öğrenme ortamı sunmaktadır.</p>
+    `
+},
+
+"ogrenci-yarismalar": {
+    title: "⚙️ IEEE Fırat Öğrenci Kolu",
+    text: `
+        <p>IEEE Fırat Öğrenci Kolu, mühendislik ve teknoloji alanlarına ilgi duyan öğrencileri bir araya getiren önemli öğrenci topluluklarından biridir. Öğrencilerin akademik ve mesleki gelişimlerine katkı sağlamak amacıyla çeşitli etkinlikler gerçekleştirilmektedir. Uluslararası mühendislik projeleri öğrencilerin farklı disiplinlerde deneyim kazanmasına yardımcı olmaktadır. Kariyer günleri sayesinde öğrenciler sektör temsilcileriyle bir araya gelme fırsatı bulabilmektedir. Düzenlenen akademik seminerler öğrencilerin güncel teknolojiler ve mühendislik çalışmaları hakkında bilgi edinmesini sağlamaktadır. Proje çalışmaları sırasında öğrenciler ekip içerisinde görev alarak iş birliği becerilerini geliştirebilmektedir. Farklı etkinlikler öğrencilerin üniversite hayatını daha aktif ve verimli geçirmelerine katkıda bulunmaktadır. Öğrenciler kendi fikirlerini projelere dönüştürerek uygulamalı deneyim kazanabilmektedir. Akademik ve profesyonel çevrelerle kurulan iletişim öğrencilerin kariyer hedeflerini şekillendirmesine yardımcı olabilmektedir. IEEE Fırat Öğrenci Kolu, mühendislik alanında kendisini geliştirmek isteyen öğrenciler için çeşitli fırsatlar sunmaktadır.</p>
+    `
+},
+
+"adli": {
+    title: "🛡️ Siber Güvenlik Topluluğu",
+    text: `
+        <p>Siber Güvenlik Topluluğu, bilgisayar ve ağ güvenliği konularına ilgi duyan öğrencileri bir araya getiren bir öğrenci topluluğudur. Topluluk kapsamında ağ güvenliği hakkında temel ve uygulamalı çalışmalar gerçekleştirilmektedir. Öğrenciler siber güvenliğin temel kavramlarını öğrenerek bu alandaki bilgilerini geliştirme fırsatı bulmaktadır. CTF yarışmaları sayesinde öğrenciler farklı güvenlik problemleri üzerinde çalışma deneyimi kazanabilmektedir. Sızma testleri konusunda yapılan çalışmalar güvenlik açıklarının nasıl değerlendirildiğini anlamaya yardımcı olmaktadır. Düzenlenen eğitimler öğrencilerin teknik bilgilerini adım adım geliştirmelerine katkı sağlamaktadır. Topluluk içerisinde yapılan çalışmalar problem çözme ve analitik düşünme becerilerinin gelişmesini desteklemektedir. Öğrenciler ekip halinde çalışarak hem teknik hem de iletişim becerilerini geliştirebilmektedir. Siber güvenlik alanındaki güncel gelişmeler takip edilerek öğrencilerin sektördeki yeniliklerden haberdar olması sağlanmaktadır. Siber Güvenlik Topluluğu, bu alanda kariyer yapmak isteyen öğrenciler için öğrenme ve deneyim kazanma ortamı oluşturmaktadır.</p>
+    `
+},
+"ulasim-otobus": {
+    title: "🚌 Şehir İçi Ulaşım",
+    text: `
+        <p>Elazığ'da öğrencilerin şehir içerisinde ulaşımını sağlayan farklı toplu taşıma seçenekleri bulunmaktadır. Belediye otobüsleri öğrencilerin kampüs ve şehir merkezi arasında ulaşım sağlamasında önemli bir yere sahiptir. Minibüsler de şehir içerisinde farklı bölgelere ulaşmak için kullanılan ulaşım araçları arasında yer almaktadır. Öğrenciler ulaşım sırasında öğrenci Elazığ Kart kullanarak toplu taşıma hizmetlerinden yararlanabilmektedir. Kampüse ulaşım sağlayan araçlar öğrencilerin günlük hayatını kolaylaştırmaktadır. Ders saatlerine uygun hareket ederek ulaşım süresini daha verimli değerlendirmek mümkündür. Şehir merkezine ulaşım sayesinde öğrenciler ders dışında sosyal ve kültürel etkinliklere de katılabilmektedir. Toplu taşıma kullanımı öğrencilerin şehir içerisindeki farklı noktalara daha kolay ulaşmasına yardımcı olmaktadır. Öğrenciler ulaşım seçeneklerini kullanarak hem üniversiteye hem de şehirdeki sosyal alanlara erişim sağlayabilmektedir. Elazığ'daki şehir içi ulaşım seçenekleri öğrencilerin günlük üniversite hayatını daha rahat sürdürebilmelerine katkı sağlamaktadır.</p>
+    `
+},
+
+"yerleske-harput": {
+    title: "🏰 Gezilecek Yerler",
+    text: `
+        <p>Elazığ, tarihi ve doğal güzellikleriyle öğrencilerin ders dışında keşfedebileceği birçok farklı yere sahiptir. Tarihi Harput Mahallesi, şehrin geçmişini ve kültürel dokusunu yakından görmek isteyen öğrenciler için önemli bir gezi noktasıdır. Harput'ta tarihi yapılar ve geleneksel şehir dokusu bir arada görülebilmektedir. Hazar Gölü, doğal güzelliği ve çevresindeki manzaralarıyla şehirden uzaklaşmak isteyen öğrencilerin tercih edebileceği yerlerden biridir. Buzluk Mağarası ise doğal yapısıyla dikkat çeken farklı bir gezi noktasıdır. Keban Barajı da Elazığ'ın önemli doğal ve teknolojik yapılarından biri olarak ziyaret edilebilmektedir. Öğrenciler bu bölgeleri arkadaşlarıyla birlikte gezerek ders yoğunluğundan uzaklaşma fırsatı bulabilir. Şehrin tarihi ve doğal alanlarını keşfetmek Elazığ'ın kültürel yapısını daha yakından tanımaya yardımcı olmaktadır. Farklı gezi noktaları öğrencilerin boş zamanlarını değerlendirmeleri için çeşitli seçenekler sunmaktadır. Elazığ'daki tarihi ve doğal mekanlar, üniversite öğrencilerine şehir hayatının dışında farklı deneyimler yaşama fırsatı sağlamaktadır.</p>
+    `
+},
+
+"yasam-kantin": {
+    title: "🛍️ Sosyal Yaşam",
+    text: `
+        <p>Elazığ'da öğrencilerin ders dışında vakit geçirebileceği çeşitli sosyal alanlar bulunmaktadır. Üniversite Mahallesi, öğrencilerin günlük yaşamında önemli bir yere sahip olan bölgelerden biridir. Bu bölgede öğrencilerin arkadaşlarıyla zaman geçirebileceği farklı kafeler ve sosyal alanlar bulunmaktadır. Bosna Hersek Bulvarı da öğrenci yaşamının hareketli olduğu önemli noktalardan biri olarak öne çıkmaktadır. Öğrenciler ders sonrasında arkadaşlarıyla buluşarak sosyal aktiviteler gerçekleştirebilmektedir. Kafeler, öğrencilerin ders çalışmak veya arkadaşlarıyla sohbet etmek için değerlendirebileceği mekanlar arasında yer almaktadır. Sosyal alanlarda vakit geçirmek öğrencilerin üniversite hayatını daha keyifli hale getirebilmektedir. Farklı bölgeleri keşfetmek öğrencilerin şehre ve çevresine daha kolay alışmasına yardımcı olmaktadır. Üniversite çevresindeki sosyal imkanlar öğrencilerin ders ve sosyal yaşam arasında denge kurmasına katkı sağlayabilmektedir. Elazığ'daki öğrenci odaklı sosyal yaşam, üniversite yıllarını daha hareketli ve çeşitli geçirmek isteyen öğrenciler için farklı imkanlar sunmaktadır.</p>
+    `
+},
+"robotik": {
+    title: "🤖 Robotik ve Otomasyon Kulübü",
+    text: `
+        <p>Robotik ve Otomasyon Kulübü, teknoloji ve mühendislik alanlarına ilgi duyan öğrencileri bir araya getirmektedir. Kulüp kapsamında robotik sistemler üzerine çeşitli çalışmalar gerçekleştirilmektedir. Öğrenciler Arduino ve benzeri geliştirme platformlarını kullanarak uygulamalı projeler geliştirebilmektedir. Sensörler ve elektronik bileşenler hakkında çalışmalar yapılarak öğrencilerin teknik bilgileri desteklenmektedir. Otomasyon sistemleri üzerine yapılan projeler problem çözme becerilerinin gelişmesine katkı sağlamaktadır. Proje süreçlerinde öğrenciler ekip halinde çalışarak deneyim kazanmaktadır. Yapılan çalışmalar teorik bilgilerin uygulamaya aktarılmasına yardımcı olmaktadır. Kulüp etkinlikleri öğrencilerin teknoloji alanındaki meraklarını geliştirmektedir. Farklı projeler üzerinde çalışmak öğrencilerin yeni teknolojileri tanımasına olanak sağlamaktadır. Robotik ve Otomasyon Kulübü, mühendislik ve teknoloji alanında kendisini geliştirmek isteyen öğrenciler için faydalı bir çalışma ortamı sunmaktadır.</p>
+    `
+},
+
+"elektrik-elektronik": {
+    title: "⚡ Elektrik ve Elektronik Kulübü",
+    text: `
+        <p>Elektrik ve Elektronik Kulübü, elektronik ve mühendislik konularına ilgi duyan öğrencileri bir araya getirmektedir. Kulüp içerisinde elektronik devreler üzerine çeşitli çalışmalar yapılmaktadır. Öğrenciler mikrodenetleyiciler kullanarak farklı uygulamalar geliştirme fırsatı bulabilmektedir. Devre tasarımı konusunda yapılan çalışmalar teknik bilgilerin uygulamaya aktarılmasına yardımcı olmaktadır. Elektronik projeler öğrencilerin problem çözme becerilerini geliştirmektedir. Öğrenciler ekip halinde çalışarak proje geliştirme deneyimi kazanmaktadır. Yapılan uygulamalar sayesinde öğrenciler elektronik bileşenleri daha yakından tanıyabilmektedir. Kulüp etkinlikleri mühendislik eğitiminin uygulamalı yönünü desteklemektedir. Teknolojik gelişmeler takip edilerek öğrencilerin güncel konular hakkında bilgi edinmesi sağlanmaktadır. Elektrik ve Elektronik Kulübü, elektronik ve mühendislik alanında kendisini geliştirmek isteyen öğrenciler için yararlı bir ortam oluşturmaktadır.</p>
+    `
+},
+
+"girisimcilik": {
+    title: "🚀 Girişimcilik Kulübü",
+    text: `
+        <p>Girişimcilik Kulübü, kendi fikirlerini geliştirmek isteyen öğrencileri bir araya getiren sosyal ve akademik topluluklardan biridir. Kulüp kapsamında girişimcilik ve proje geliştirme üzerine çeşitli etkinlikler düzenlenmektedir. Öğrenciler kendi fikirlerini paylaşarak farklı bakış açıları kazanabilmektedir. İş fikirlerinin geliştirilmesi sırasında problem çözme ve planlama becerileri desteklenmektedir. Düzenlenen etkinlikler öğrencilerin girişimcilik dünyasını daha yakından tanımasına yardımcı olmaktadır. Takım çalışmaları öğrencilerin iletişim ve iş birliği becerilerini geliştirmektedir. Proje fikirleri üzerinde çalışmak öğrencilerin yaratıcı düşünme yeteneklerine katkı sağlamaktadır. Kariyer etkinlikleri sayesinde öğrenciler farklı sektörleri tanıma fırsatı bulabilmektedir. Girişimcilik konusunda deneyim kazanmak öğrencilerin gelecekteki kariyer planlarına katkı sağlayabilmektedir. Girişimcilik Kulübü, yeni fikirler üretmek ve projelerini geliştirmek isteyen öğrenciler için destekleyici bir ortam sunmaktadır.</p>
+    `
+},
+
+"fotograf": {
+    title: "📷 Fotoğrafçılık Kulübü",
+    text: `
+        <p>Fotoğrafçılık Kulübü, fotoğraf sanatına ve görsel çalışmalara ilgi duyan öğrencileri bir araya getirmektedir. Kulüp içerisinde fotoğrafçılığın temel teknikleri hakkında çeşitli çalışmalar yapılmaktadır. Öğrenciler farklı çekim tekniklerini deneyerek kendilerini geliştirme fırsatı bulabilmektedir. Şehir gezileri ve etkinlikler sırasında farklı fotoğraf çalışmaları gerçekleştirilebilmektedir. Fotoğraf çekmek öğrencilerin çevrelerine farklı bir bakış açısıyla yaklaşmalarına yardımcı olmaktadır. Kulüp etkinlikleri öğrencilerin yaratıcılıklarını geliştirmelerine katkı sağlamaktadır. Yapılan çalışmalar öğrencilerin görsel anlatım konusunda deneyim kazanmasını desteklemektedir. Öğrenciler çektikleri fotoğrafları paylaşarak birbirlerinden yeni bilgiler öğrenebilmektedir. Farklı mekanlarda yapılan çalışmalar öğrencilerin Elazığ ve üniversite çevresini daha yakından tanımasına yardımcı olabilir. Fotoğrafçılık Kulübü, sanat ve görsel üretimle ilgilenen öğrenciler için keyifli bir sosyal ortam oluşturmaktadır.</p>
+    `
+},
+
+"muzik": {
+    title: "🎵 Müzik Kulübü",
+    text: `
+        <p>Müzik Kulübü, müziğe ilgi duyan öğrencileri bir araya getirerek ortak çalışmalar yapılmasına olanak sağlamaktadır. Kulüp içerisinde farklı müzik türleri üzerine çalışmalar gerçekleştirilebilmektedir. Öğrenciler yeteneklerini geliştirmek ve müzik konusunda deneyim kazanmak için çeşitli etkinliklere katılabilmektedir. Konser ve müzik etkinlikleri öğrencilerin sahne deneyimi kazanmasına yardımcı olmaktadır. Grup çalışmaları öğrencilerin birlikte hareket etme ve iletişim becerilerini geliştirmektedir. Müzikle ilgilenmek öğrencilerin üniversite hayatındaki sosyal aktivitelerini çeşitlendirmektedir. Kulüp etkinliklerinde öğrenciler farklı müzik kültürlerini tanıma fırsatı bulabilmektedir. Ortak çalışmalar öğrenciler arasında arkadaşlık ve dayanışma ortamının oluşmasına katkı sağlamaktadır. Müzik etkinlikleri üniversite kampüsündeki sosyal yaşamın daha hareketli hale gelmesine yardımcı olmaktadır. Müzik Kulübü, müziği seven ve üniversite hayatında sanatsal faaliyetlere katılmak isteyen öğrenciler için güzel bir ortam sunmaktadır.</p>
+    `
+},
+
+"spor": {
+    title: "🏆 Spor Kulübü",
+    text: `
+        <p>Spor Kulübü, öğrencilerin sportif faaliyetlere katılmasını ve aktif bir üniversite yaşamı sürdürmesini desteklemektedir. Kulüp kapsamında farklı spor dallarına yönelik etkinlikler gerçekleştirilebilmektedir. Öğrenciler spor yaparak takım çalışması konusunda deneyim kazanabilmektedir. Takım halinde gerçekleştirilen faaliyetler iletişim ve iş birliği becerilerinin gelişmesine katkı sağlamaktadır. Spor etkinlikleri öğrencilerin ders dışındaki zamanlarını verimli şekilde değerlendirmelerine yardımcı olmaktadır. Yarışmalar öğrencilerin farklı takımlarla bir araya gelmesini sağlamaktadır. Kulüp içerisinde arkadaşlık ve dayanışma ortamı oluşması öğrencilerin sosyal yaşamına katkı sağlamaktadır. Düzenli sportif faaliyetlere katılmak öğrencilerin disiplinli çalışma alışkanlıklarını destekleyebilmektedir. Spor etkinlikleri üniversite hayatının daha hareketli ve sosyal geçmesine yardımcı olmaktadır. Spor Kulübü, sportif faaliyetlere ilgi duyan öğrenciler için eğlenceli ve sosyal bir ortam sunmaktadır.</p>
+    `
+},
+
+"kultur": {
+    title: "🎭 Kültür ve Sanat Kulübü",
+    text: `
+        <p>Kültür ve Sanat Kulübü, sanat ve kültür alanlarına ilgi duyan öğrencileri bir araya getirmektedir. Kulüp kapsamında tiyatro ve çeşitli sanatsal etkinlikler düzenlenebilmektedir. Öğrenciler farklı sanat dallarını tanıyarak ilgi alanlarını keşfetme fırsatı bulabilmektedir. Tiyatro çalışmaları öğrencilerin kendilerini ifade etme becerilerini geliştirmelerine yardımcı olmaktadır. Kültürel etkinlikler öğrencilerin farklı bakış açıları kazanmasını sağlamaktadır. Grup çalışmaları iletişim ve ekip çalışması becerilerinin gelişmesine katkı sağlamaktadır. Sanatsal faaliyetlere katılmak öğrencilerin yaratıcılıklarını geliştirmelerine yardımcı olabilir. Kulüp etkinlikleri üniversite ortamındaki sosyal ve kültürel yaşamı zenginleştirmektedir. Öğrenciler etkinlikler sırasında yeni arkadaşlıklar kurarak sosyal çevrelerini genişletebilmektedir. Kültür ve Sanat Kulübü, sanatla ilgilenen öğrenciler için yaratıcı ve sosyal bir çalışma ortamı sunmaktadır.</p>
+    `
+},
+};  
 
 
 // ==========================================
