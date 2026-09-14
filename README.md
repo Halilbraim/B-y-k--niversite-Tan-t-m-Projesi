@@ -1,36 +1,32 @@
 # 🎓 Büyük Üniversite Tanıtım Projesi
 
-Bu proje; üniversite adaylarının kampüs, bölümler ve yurt imkanları hakkında detaylı bilgi alabilmesi amacıyla geliştirilmiş modern, kullanıcı dostu ve interaktif bir web tanıtım platformudur.
+Üniversite adaylarının, üniversiteler ve bölümler hakkında detaylı ve doğru bilgilere tek bir platform üzerinden kolayca ulaşabilmesini sağlayan modern web projesi.
+
+🚀 **Canlı Demo:** [Proje Canlı Yayın Linki](https://senin-netlify-linkin.netlify.app)
 
 ---
 
-## 🚀 Proje Ekran Görüntüleri & Özellikler
+## 📌 Özellikler
 
-*   **Ana Sayfa (`index.html`):** Ziyaretçileri karşılayan, üniversitenin genel atmosferini ve öne çıkan özelliklerini tanıtan ana arayüz.
-*   **Bölümler (`bolumler.html`):** Fakülteler ve bölümler hakkında detaylı bilgilerin yer aldığı sayfa.
-*   **Kampüs Yaşamı (`kampus.html`):** Kampüs olanakları, sosyal alanlar, laboratuvarlar ve sosyal yaşam hakkında rehber içerikler.
-*   **Yurt İmkânları (`yurt.html`):** Barınma seçenekleri, yurt özellikleri ve konum detayları.
+- 🏛️ **Üniversite & Bölüm Tanıtımları:** Üniversiteler ve fakülteler hakkında detaylı rehberler.
+- 📱 **Duyarlı (Responsive) Tasarım:** Mobil, tablet ve masaüstü cihazlarla tam uyumlu arayüz.
+- ⚡ **Hızlı ve Akıcı Kullanım:** Minimalist ve kullanıcı dostu tasarım.
+- 🔍 **Arama ve Filtreleme:** Aranan bilgilere hızlı erişim imkanı.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-Proje geliştirilirken aşağıdaki web teknolojileri ve araçlar tercih edilmiştir:
-
-*   **HTML5:** Sayfa yapı taşları ve semantik iskelet.
-*   **CSS3 (`stil.css`):** Modern tasarımlar, esnek düzenler ve şık arayüz giydirmeleri.
-*   **JavaScript (`script.js`):** Dinamik bileşenler, açılır pencereler (modallar), interaktif elementler ve kullanıcı deneyimini artırıcı dokunuşlar.
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+- **Versiyon Kontrol:** Git & GitHub
+- **Deployment:** Netlify
 
 ---
 
-## 📁 Proje Dosya Yapısı
+## 💻 Kurulum ve Yerel Çalıştırma
 
-```text
-Büyük-Üniversite-Tanıtım-Projesi/
-│
-├── index.html       # Ana sayfa
-├── bolumler.html    # Bölümler ve fakülteler sayfası
-├── kampus.html      # Kampüs olanakları ve yaşam
-├── yurt.html        # Barınma ve yurt bilgileri
-├── stil.css         # Tasarım ve stiller
-└── script.js        # Fonksiyonellik ve interaktif kodlar
+Projeyi kendi bilgisayarında çalıştırmak için aşağıdaki adımları takip edebilirsin:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/Halilbraim/B-y-k--niversite-Tan-t-m-Projesi.git](https://github.com/Halilbraim/B-y-k--niversite-Tan-t-m-Projesi.git)
